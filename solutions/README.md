@@ -9,4 +9,10 @@
 
 ---
 
+**[Installing via APT](./solution-apt.md)**
+
+**[Manipulating via MV](./solution-i-like-to-move-it.md)**
+
+**[Navigating + Reading](./nsolution-navigating-reading.md)**
+
 **[Versioning & Workflow](./workflow.md)** (14.6.2023)
