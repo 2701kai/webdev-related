@@ -24,6 +24,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+- [Unicode](https://www.compart.com/de/unicode/html)
+
 ## Exercises + Solutions
 
 - [apt](./solutions/solution-apt.md)
