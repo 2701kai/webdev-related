@@ -54,7 +54,7 @@ cd webd [more Vim]()
 
 - [VSCode Extensions](./extensions.md)
 
-## Inspiration, Patience, Brilliance, Love, *Feel-Dank-f&uuml;r-alles:*
+## Inspiration, Patience, Brilliance, Love or &#10084;, *Feel-Dank-f&uuml;r-alles:*
 
 ### - [Ga&euml;l](https://github.com/gael-src)
 ### - [Rami](https://github.com/rami-mohamad)
