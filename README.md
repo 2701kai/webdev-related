@@ -32,8 +32,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [Vim](./cheat-sheets/vim-cheatsheet.pdf)
 
-- cd ..
-cd webd [more Vim]()
+- [more Vim]()
 
 ## Exercises + Solutions
 
