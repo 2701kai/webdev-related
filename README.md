@@ -34,3 +34,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 ## WebDEV-Squad Wiki
 
 - [git clone](./wiki/2023-06-15-git_clone.md)
+
+## Online Playgrounds
+
+- [Visualizing Git](https://git-school.github.io/visualizing-git/)
