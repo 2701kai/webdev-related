@@ -4,7 +4,7 @@
 
 Hallo **Lieblingsklasse**, lasst uns was bauen! 
 
-#### [About this Project](about.md)
+### [About this Project](about.md)
 
 
 ---
