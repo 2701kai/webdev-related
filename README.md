@@ -87,6 +87,8 @@ Jó lenne együtt csinálni valamit a githubon, megismerni a jövő szakmai val�
 
 - [vs-code Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
 
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 ## Exercises + Solutions
 
 - [apt](./solutions/solution-apt.md)
