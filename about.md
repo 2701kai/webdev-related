@@ -6,7 +6,8 @@
 
 könnte erstes gemeinsames Projekt werden, an dem  hoffentlich viele von uns arbeiten werden.
 Das wäre doch schön, gemeinsam auf github etwas basteln, spätere berufliche Realität kennenlernen und etwas schaffen, was uns ALLEN nützt.
-<3 
+<3
+&#10084;
 
 ---
 
