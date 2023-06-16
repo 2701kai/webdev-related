@@ -32,7 +32,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [Vim](./cheat-sheets/vim-cheatsheet.pdf)
 
--[more Vim]()
+- cd ..
+cd webd [more Vim]()
 
 ## Exercises + Solutions
 
@@ -53,7 +54,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [VSCode Extensions](./extensions.md)
 
-## Inspiration, Patience, Brilliance, Love, *Feel-Dank-f&uuml;r Alles:*
+## Inspiration, Patience, Brilliance, Love, *Feel-Dank-f&uuml;r-alles:*
 
 ### - [Ga&euml;l](https://github.com/gael-src)
 ### - [Rami](https://github.com/rami-mohamad)
