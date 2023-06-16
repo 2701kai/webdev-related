@@ -40,3 +40,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 ## Online Playgrounds
 
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
+
+## VSCode Extensions
+
+- [VSCode Extensions](./extensions.md)
