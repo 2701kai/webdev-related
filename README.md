@@ -12,6 +12,10 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - https://github.com/robbdouglas/web-dev-tutorials
 
+## Tutorials
+
+- [Git mit Bitbucket](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
+
 ## Cheat Sheets
 
 - [GitHub for Beginners](https://github.com/robbdouglas/web-dev-tutorials)
@@ -25,6 +29,10 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - [Unicode](https://www.compart.com/de/unicode/html)
+
+- [Vim](./cheat-sheets/vim-cheatsheet.pdf)
+
+-[more Vim]()
 
 ## Exercises + Solutions
 
@@ -44,3 +52,9 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 ## VSCode Extensions
 
 - [VSCode Extensions](./extensions.md)
+
+## Inspiration, Patience, Brilliance, Love, *Feel-Dank-f&uuml;r Alles:*
+
+### - [Ga&euml;l](https://github.com/gael-src)
+### - [Rami](https://github.com/rami-mohamad)
+### - [Giaco](https://github.com/giacomotolari)
