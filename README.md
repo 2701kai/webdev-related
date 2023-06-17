@@ -17,6 +17,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Git mit Bitbucket](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
 
 - [Documentation git scm](https://git-scm.com/docs/gittutorial)
+> git scm: Git - gittutorial Documentation
 
 ## Cheat Sheets
 
