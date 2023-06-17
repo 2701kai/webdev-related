@@ -104,6 +104,7 @@ git push
 </br>
 
 #### Merge Branches / Commits zu main hinzufügen:
+
 </br>
 
 ```bash
@@ -117,6 +118,7 @@ git merge karl-heinz
 </br>
 
 #### x:
+
 </br>
 
 ```bash
@@ -125,6 +127,7 @@ git merge karl-heinz
 </br>
 
 #### y:
+
 </br>
 
 ```bash
@@ -133,6 +136,7 @@ git merge karl-heinz
 </br>
 
 #### z:
+
 </br>
 
 ```bash
