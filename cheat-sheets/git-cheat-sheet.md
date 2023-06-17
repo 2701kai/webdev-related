@@ -37,7 +37,7 @@ git remote -v
 
 </br>
 
-#### view comments
+### view comments
 
 
 ```bash
@@ -45,7 +45,7 @@ git log
 ```
 </br>
 
-#### Zurückgehen zu previous version / back to master (= main branch)
+### Zurückgehen zu previous version / back to master (= main branch)
 
 ```bash
 git checkout <hash> / git checkout master
@@ -53,7 +53,7 @@ git checkout <hash> / git checkout master
 
 </br>
 
-#### Lokale Datei auf github pushen:
+### Lokale Datei auf github pushen:
 
 ```bash
 git add .
@@ -63,7 +63,7 @@ git push
 
 </br>
 
-#### Neuen Zweig anlegen / dahin wechseln:
+### Neuen Zweig anlegen / dahin wechseln:
 
 
 ```bash
@@ -76,7 +76,7 @@ git branch -b karl-heinz
 
 </br>
 
-#### Zweige anzeigen / wo bin ich?
+### Zweige anzeigen / wo bin ich?
 
 ```bash
 git branch
@@ -87,7 +87,7 @@ git branch --remote
 
 </br>
 
-#### Zweig löschen:
+### Zweig löschen:
 
 ```bash
 git branch -D oops-aus-versehen-angelegt
@@ -100,7 +100,7 @@ git branch -d oops-aus-versehen-angelegt
 
 </br>
 
-#### My Commits pushen:
+### My Commits pushen:
 
 ```bash
 git checkout karl-heinz
@@ -119,7 +119,7 @@ git push
 
 </br>
 
-#### Merge Branches / Commits zu main hinzufügen:
+### Merge Branches / Commits zu main hinzufügen:
 
 ```bash
 git checkout main
@@ -131,21 +131,21 @@ git merge karl-heinz
 
 </br>
 
-#### x:
+### x:
 
 ```bash
 ```
 
 </br>
 
-#### y:
+### y:
 
 ```bash
 ```
 
 </br>
 
-#### z:
+### z:
 
 ```bash
 ```
