@@ -1,4 +1,4 @@
 # Oh, you *do* like vim?
 
 ##Be our guest..
-1[]
+![vim-extension](./assets/vim.png)
