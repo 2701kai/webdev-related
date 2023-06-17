@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+  
+  section {
+  
+  }
+  
+  h1 {
+    padding: 20px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 9vw;
+    font-weight: 700;
+    letter-spacing: 0.18 em;
+    line-height: 1.4em;
+    text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6)
+     /*text-shadow: 0em 0em 0.4em */
+  
+  }
+  
+  h2 {
+    font-size: 4vw;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+  }
+  
+  p {
+    margin: 10px auto; /* verdammt, margin wars.. Grr. Gaels Lösung */
+    padding: 10px;
+    width: 150px;
+    border-style: solid;
+    border-color: orange;
+  }
+  
+  .box-model {
+    /* CONTENT: */
+    width: 300px;
+    text-align: left;
+    margin: 50px auto 50px;
+    /* height: 300px;
+  
+     /* BORDER: */
+    /* border: 5px solid red;*/
+    border-radius: 12px;
+  
+    /* Margin: Abstand außen*/
+    /*margin: 30px 0px;*/
+  
+    /* Padding - 
+          4 Werte clockwise, start top; 
+          3 values: top - l/r - bottom; 
+          2 values: tb - lr */
+    padding: 50px 60px 30px;
+  }
+  
+  .bm1 {
+    border: 5px solid red;
+  }
+  
+  .bm2 {
+    border: 5px dashed green;
+    margin-left: 100px;
+    padding: 10px 20px 30px;
+  }
+  
+  .bm3 {
+    border: 5px dotted rgb(6, 22, 240);
+    margin: 75px;
+    padding: 10px;
+  }
+  
