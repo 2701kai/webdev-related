@@ -104,6 +104,7 @@ git push
 </br>
 
 #### Merge Branches / Commits zu main hinzufügen:
+</br>
 
 ```bash
 git checkout main
@@ -115,21 +116,24 @@ git merge karl-heinz
 
 </br>
 
-#### Neuen Zweig anlegen:
+#### x:
+</br>
 
 ```bash
 ```
 
 </br>
 
-#### Neuen Zweig anlegen:
+#### y:
+</br>
 
 ```bash
 ```
 
 </br>
 
-#### Neuen Zweig anlegen:
+#### z:
+</br>
 
 ```bash
 ```
