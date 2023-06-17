@@ -5,7 +5,7 @@
 
 ### Setup
 
-```git
+```bash
 git config --global user.email "deine-mail@xy.com"
 ​
 git config --global user.name "username"
@@ -13,34 +13,49 @@ git config --global user.name "username"
 
 ### Lokales Repository erzeugen
 > any folder, darin
-```git
+
+```bash
 git init
 ```
 
-
+</br>
 
 ### Bin ich in einem git repository?
-```git
+
+```bash
 git status
 ```
 
+</br>
+
 ### Womit bin ich verbunden?
 
-```git
+
+```bash
 git remote -v
 ```
+
+</br>
+
 #### view comments
-```git
+
+
+```bash
 git log
 ```
+</br>
 
-#### Zurückgehen zu previous version / Back to master (= main branch)
-```git
+#### Zurückgehen zu previous version / back to master (= main branch)
+
+```bash
 git checkout <hash> / git checkout master
 ```
 
+</br>
+
 #### Lokale Datei auf github pushen:
-```git
+
+```bash
 git add .
 git commit -m update
 git push
@@ -49,6 +64,7 @@ git push
 </br>
 
 #### Neuen Zweig anlegen / dahin wechseln:
+
 
 ```bash
 git branch -b karl-heinz
@@ -105,8 +121,6 @@ git push
 
 #### Merge Branches / Commits zu main hinzufügen:
 
-</br>
-
 ```bash
 git checkout main
 # switch to main
@@ -119,8 +133,6 @@ git merge karl-heinz
 
 #### x:
 
-</br>
-
 ```bash
 ```
 
@@ -128,16 +140,12 @@ git merge karl-heinz
 
 #### y:
 
-</br>
-
 ```bash
 ```
 
 </br>
 
 #### z:
-
-</br>
 
 ```bash
 ```
