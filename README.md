@@ -43,6 +43,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [mv](./solutions/solution-i-like-to-move-it.md)
 - [Read Files](./solutions/solution-navigating-reading.md)
 - [Workflow](./solutions/workflow.md)
+- [managing branches](./solutions/managing-branches.md)
 
 ## WebDEV-Squad Wiki
 
