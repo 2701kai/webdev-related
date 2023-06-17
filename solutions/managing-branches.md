@@ -104,3 +104,50 @@ $ git branch -D crazy-idea
 
 <br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+> VSCode Terminal:
+
+<br />
+```bash
+mkdir branch-out
+cd branch-out
+# in meinem "code" Ordner erstellt, git init also nicht nötig..
+touch README.md
+git branch content
+git checkout content
+```
+
+<br /> 
+oder 
+</br>
+
+<br />
+
+```bash
+git checkout -b content
+# shorthand, thanx Gaël!
+```
+</br>
+
+> das hier bisher auf "main" erstellt.. - jetzt also switch to content by:
+
+<br />
+
+```bash
+git checkout content
+```
+</br>
