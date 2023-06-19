@@ -17,4 +17,4 @@
 
 **[Versioning & Workflow](./workflow.md)** (14.6.2023)
 
-**[Branch-Out](./branch-out.md)** (15.6.2023)
+**[Branch - Out](./branch-out.md)** (15.6.2023)
