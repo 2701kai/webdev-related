@@ -131,12 +131,47 @@ git merge karl-heinz
 
 </br>
 
-### x:
+### Branching:
+
+### [GitHub Branching](./cheat-sheets/branching.md)
+
+</br>
+
+### y:
 
 ```bash
 ```
 
 </br>
+
+### z:
+
+```bash
+```
+
+### y:
+
+```bash
+```
+
+</br>
+
+### z:
+
+```bash
+```
+
+### y:
+
+```bash
+```
+
+</br>
+
+### z:
+
+```bash
+```
 
 ### y:
 
