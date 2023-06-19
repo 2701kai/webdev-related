@@ -69,3 +69,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 ### - [Ga&euml;l](https://github.com/gael-src)
 ### - [Rami](https://github.com/rami-mohamad)
 ### - [Giaco](https://github.com/giacomotolari)
+
+## Fun
+
+##### [John Oliver - AI](https://www.youtube.com/watch?v=Sqa8Zo2XWc4)
