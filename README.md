@@ -53,6 +53,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [git clone](./wiki/2023-06-15-git_clone.md)
 
+- [branching](./cheat-sheets/branching.md)
+
 ## Online Playgrounds
 
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
