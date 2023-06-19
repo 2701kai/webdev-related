@@ -21,6 +21,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Documentation git scm](https://git-scm.com/docs/gittutorial)
 > git scm: Git - gittutorial Documentation
 
+- [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
 ## Cheat Sheets
 
 - [GitHub Docs](https://docs.github.com/en)
