@@ -30,9 +30,9 @@ git branch -b jan
 ### Rename Branch
 
 ```bash
-git branch -r main
+git branch -m main
 # z.B master umbenennen in main
-# Syntax:git branch -r <name>
+# Syntax:git branch -m <name>
 ```
 
 ### auf diesen Zweig wechseln:
