@@ -72,4 +72,6 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Fun
 
+![sudo-evil](./assets/sudo-evil.png)
+
 ##### [John Oliver - AI](https://www.youtube.com/watch?v=Sqa8Zo2XWc4)
