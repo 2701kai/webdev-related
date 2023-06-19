@@ -23,6 +23,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Cheat Sheets
 
+- [GitHub Docs](https://docs.github.com/en)
+
 - [GitHub for Beginners](https://github.com/robbdouglas/web-dev-tutorials)
 
 - [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
