@@ -27,6 +27,14 @@ git branch -b jan
 # Syntax:git branch -b <name>
 ```
 
+### Rename Branch
+
+```bash
+git branch -r main
+# z.B master umbenennen in main
+# Syntax:git branch -r <name>
+```
+
 ### auf diesen Zweig wechseln:
 
 ```bash
