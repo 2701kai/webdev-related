@@ -52,7 +52,10 @@ git checkout -b [branch-name] # DEIN Name z.B.
 
 ```bash
 git push --set-upstream origin kai
-# aus branch kai
+# aus branch kai, also in branch "kai" angemeldet, danach
+git add .
+git commit -m update
+git push
 ```
 
 ---
