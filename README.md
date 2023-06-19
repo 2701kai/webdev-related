@@ -48,6 +48,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Read Files](./solutions/solution-navigating-reading.md)
 - [Workflow](./solutions/workflow.md)
 - [Managing Branches](./solutions/managing-branches.md)
+- [Collaborating + Review](./solutions/collaborating/README.md)
 
 ## WebDEV-Squad Wiki
 
