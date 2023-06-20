@@ -66,6 +66,12 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [VSCode Extensions](./extensions.md)
 
+## Ubuntu
+
+. .deb - Pakete installieren:
+
+`sudo dpkg -i PaketName.de`
+
 ## Inspiration, Patience, Brilliance, Love or &#10084;, *Feel-Dank-f&uuml;r-alles:*
 
 ### - [Ga&euml;l](https://github.com/gael-src)
