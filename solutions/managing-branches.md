@@ -7,7 +7,7 @@ A single Git repository can maintain multiple branches of development. To create
 
 <br />
 ```bash
-$ git branch experimental
+git branch experimental
 ```
 
 If you now run
@@ -26,7 +26,7 @@ The `experimental` branch is the one you just created, and the `master` branch i
 
 <br />
 ```bash
-$ git switch experimental
+git switch experimental
 ```
 
 
@@ -36,8 +36,8 @@ Now edit a file, commit the change, and switch back to the `master` branch:
 <br />
 ```bash
 # edit file, then..
-$ git commit -a
-$ git switch master
+git commit -a
+git switch master
 ```
 Check that the change you made is no longer visible, since it was made on the experimental branch and you’re back on the master branch.
 
@@ -46,28 +46,28 @@ You can make a different change on the master branch:
 <br />
 ```bash
 # (edit file)
-$ git commit -a
+git commit -a
 ```
 
 at this point the two branches have diverged, with different changes made in each. To merge the changes made in `experimental` into `master`, run
 
 <br />
 ```bash
-$ git merge experimental
+git merge experimental
 ```
 
 If the changes don’t conflict, you’re done. If there are conflicts, markers will be left in the problematic files showing the conflict;
 
 <br />
 ```bash
-$ git diff
+git diff
 ```
 
 will show this. Once you’ve edited the files to resolve the conflicts,
 
 <br />
 ```bash
-$ git commit -a
+git commit -a
 ```
 
 <br />
@@ -77,7 +77,7 @@ will commit the result of the merge. Finally,
 <br />
 
 ```bash
-$ gitk
+gitk
 ```
 
 <br />
@@ -88,7 +88,7 @@ At this point you could delete the experimental branch with
 
 <br />
 ```bash
-$ git branch -d experimental
+git branch -d experimental
 ```
 
 <br />
@@ -99,7 +99,7 @@ If you develop on a branch crazy-idea, then regret it, you can always delete the
 
 <br />
 ```bash
-$ git branch -D crazy-idea
+git branch -D crazy-idea
 ```
 
 <br />
