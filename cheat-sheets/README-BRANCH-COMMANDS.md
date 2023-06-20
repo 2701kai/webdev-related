@@ -36,10 +36,10 @@ git branch -d <branchname>
 git push origin <branchname>
 ```
 
-6. Löschen das feature Branch remote:
+6. Löschen des feature Branch remote:
 
 ```bash
-git push -d <branchname>
+git push origin -d <branchname>
 ```
 
 7. um ein branch mit main zu mergen, muss man auf branch sein:
