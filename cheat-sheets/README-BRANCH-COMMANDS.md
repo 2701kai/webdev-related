@@ -6,31 +6,31 @@
 
 ## Wichtige Commands:
 
-1. Neu Branch anliegen und direkt auf den Wechsel:
+1. Neuen Branch anliegen und direkt auf den Zweig wechseln:
 
 ```bash
 git checkout -b <branchname>
 ```
 
-2. wechsel vom einen Branch zu anderem :
+2. Wechsel vom einem Branch zu einem anderen :
 
 ```bash
 git checkout <branchname>
 ```
 
-3. Die Branches listen in deinem Repo und zeigt auf welchem Branch bist du:
+3. Die Branches listen in deinem Repo und zeigen, auf welchem Branch Du bist:
 
 ```bash
 git branch
 ```
 
-4. Löschen das feature Branch Local:
+4. Löschen des feature Branch Local:
 
 ```bash
 git branch -d <branchname>
 ```
 
-5. Push ein Branch zum remote Repo, damit andere kann es sehen:
+5. Push ein Branch zum remote Repo, damit andere es sehen können:
 
 ```bash
 git push origin <branchname>
@@ -42,7 +42,7 @@ git push origin <branchname>
 git push -d <branchname>
 ```
 
-7. ein branch mit main mergen, muss man auf branch sein:
+7. um ein branch mit main zu mergen, muss man auf branch sein:
 
 ```bash
 git merge <branchname>
@@ -52,13 +52,13 @@ git merge <branchname>
 
 ## Remote Repo:
 
-1. Wenn ein lokal Branch nicht mit einem Remote Repo verbunden, fügen das Server hinzu, um zu pushen.
+1. Wenn ein lokaler Branch nicht mit einem Remote Repo verbunden ist, fügt man remote Server hinzu, um zu pushen.
 
 ```bash
 git remote add origin <Repo Link>
 ```
 
-2. Listen das gesamte remote Repos:
+2. Listen des gesamten remote Repos:
 
 ```bash
 git remote -v
