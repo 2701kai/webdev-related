@@ -135,6 +135,10 @@ git merge karl-heinz
 
 ### [GitHub Branching](./cheat-sheets/branching.md)
 
+### [Branch Commands (&copy; Rami)](./README-BRANCH-COMMANDS.md)
+
+### [Conflicts Local (&copy; Rami)](./README-CONFLICTS-LOCAL.md)
+
 </br>
 
 ### y:
@@ -148,6 +152,8 @@ git merge karl-heinz
 
 ```bash
 ```
+
+</br>
 
 ### y:
 
