@@ -23,6 +23,9 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
+ 
+---
+
 ## Cheat Sheets
 
 - ##### [VSCode Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
@@ -54,6 +57,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Managing Branches](./solutions/managing-branches.md)
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
 
+---
+
 #### UI Basics
 
 ##### HTML + CSS:
@@ -68,19 +73,27 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [branching](./cheat-sheets/branching.md)
 
+---
+
 ## Online Playgrounds
 
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
 
+---
+
 ## VSCode Extensions
 
 - [VSCode Extensions](./extensions.md)
+
+---
 
 ## Ubuntu
 
 . .deb - Pakete installieren:
 
 `sudo dpkg -i PaketName.de`
+
+---
 
 ## Inspiration, Patience, Brilliance, Love or &#10084;, _Feel-Dank-f&uuml;r-alles:_
 
@@ -89,6 +102,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 ### - [Rami](https://github.com/rami-mohamad)
 
 ### - [Giaco](https://github.com/giacomotolari)
+
+---
 
 ## Fun
 
