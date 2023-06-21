@@ -43,6 +43,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Vim](./cheat-sheets/vim-cheatsheet.pdf)
 
 - [more Vim]()
+ 
+<hr>
 
 ## Exercises + Solutions
 
@@ -52,6 +54,14 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Workflow](./solutions/workflow.md)
 - [Managing Branches](./solutions/managing-branches.md)
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
+
+#### UI Basics
+
+##### HTML + CSS:
+
+- [Basic Structure](./solutions/basic_structure/index.html)
+
+<hr>
 
 ## WebDEV-Squad Wiki
 
