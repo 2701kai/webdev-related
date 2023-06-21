@@ -27,9 +27,9 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - ##### [VSCode Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
 
-- [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
+- ##### [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
  
-- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- ##### [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  
 - [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
 
