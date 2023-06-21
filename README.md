@@ -25,17 +25,17 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Cheat Sheets
 
+- ##### [VSCode Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
+
+- [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
+ 
+- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+ 
+- [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
+
 - [GitHub Docs](https://docs.github.com/en)
 
 - [GitHub for Beginners](https://github.com/robbdouglas/web-dev-tutorials)
-
-- [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
-
-- [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
-
-- [vs-code Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
-
-- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - [Unicode](https://www.compart.com/de/unicode/html)
 
