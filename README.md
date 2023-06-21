@@ -2,14 +2,14 @@
 
 ![peace](./assets/peace.jpg)
 
-Hallo **Lieblingsklasse**, lasst uns was bauen! 
+Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ### [About this Project](about.md)
 
 ### [Lost in Code (Playlists)](https://2701kai.github.io/lost/index.html)
 
-
 ---
+
 ## Roberts Wiki
 
 - https://github.com/robbdouglas/web-dev-tutorials
@@ -19,7 +19,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Git mit Bitbucket](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
 
 - [Documentation git scm](https://git-scm.com/docs/gittutorial)
-> git scm: Git - gittutorial Documentation
+
+  > git scm: Git - gittutorial Documentation
 
 - [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
@@ -72,10 +73,12 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 `sudo dpkg -i PaketName.de`
 
-## Inspiration, Patience, Brilliance, Love or &#10084;, *Feel-Dank-f&uuml;r-alles:*
+## Inspiration, Patience, Brilliance, Love or &#10084;, _Feel-Dank-f&uuml;r-alles:_
 
 ### - [Ga&euml;l](https://github.com/gael-src)
+
 ### - [Rami](https://github.com/rami-mohamad)
+
 ### - [Giaco](https://github.com/giacomotolari)
 
 ## Fun
