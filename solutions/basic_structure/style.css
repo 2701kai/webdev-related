@@ -18,12 +18,16 @@ body {
   background-color: #262626;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  line-height: 3.5em;
+  line-height: 1.5em;
 
   /* font-family: "Poppins", sans-serif; */
 
-  margin: 20pxq;
+  margin: 20px 50px 20px;
   padding: 20px;
+}
+
+h1 {
+  line-height: 3.5em;
 }
 
 h1, h2, h3 {
