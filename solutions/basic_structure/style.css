@@ -18,11 +18,11 @@ body {
   background-color: #262626;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  line-height: 1.5em;
+  line-height: 3.5em;
 
   /* font-family: "Poppins", sans-serif; */
 
-  margin: 20px;
+  margin: 20px 50px 20px;
   padding: 20px;
 }
 
