@@ -58,6 +58,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Workflow](./solutions/workflow.md)
 - [Managing Branches](./solutions/managing-branches.md)
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
+- [Listmania](./solutions/listmania/index.html)
 
 
 
