@@ -30,6 +30,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - ##### [VSCode Keyboard Shortcuts](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/vscode-keyboard-shortcuts-linux.pdf)
 
+- ##### [Emmet Cheat Sheet](./cheat-sheets/emmet.html)
+
 - ##### [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
  
 - ##### [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
