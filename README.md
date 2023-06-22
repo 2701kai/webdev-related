@@ -56,6 +56,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Workflow](./solutions/workflow.md)
 - [Managing Branches](./solutions/managing-branches.md)
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
+- **[Collaborating + Review (Pull Requests)](./collaborating/README.md)** (19.6.2023)
 
 ---
 
