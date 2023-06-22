@@ -1,0 +1,30 @@
+/* What a mess! */
+
+html {
+  color: blue;
+}
+
+h2,
+.important {
+  color: red;
+  /* font-size: 100px; */
+}
+
+#hilight {
+  color: blue;
+  font-size: 100px;
+}
+
+#title {
+  color: blue;
+  background-color: ;
+}
+
+.blue-text {
+  color: rgb(0, 38, 255);
+}
+
+header,
+main {
+  background-color: aquamarine;
+}

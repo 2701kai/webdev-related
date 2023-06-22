@@ -59,6 +59,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Managing Branches](./solutions/managing-branches.md)
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
 - [Listmania](./solutions/listmania/index.html)
+- [How about IDs](./solutions/howaboutids/index.html)
 
 
 
