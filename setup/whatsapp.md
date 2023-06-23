@@ -1,6 +1,6 @@
 # WhatsApp Desktop
 
-###installieren mit
+### installieren mit
 
 ```bash
 sudo snap install whatsdesk
