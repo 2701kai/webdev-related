@@ -6,6 +6,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ### [About this Project](about.md)
 
+### [Setup](./setup/setup.md)
+
 ### [Lost in Code (Playlists)](https://2701kai.github.io/lost/index.html)
 
 ### [Roberts Wiki](https://github.com/robbdouglas/web-dev-tutorials)
