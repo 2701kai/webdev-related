@@ -16,13 +16,13 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Tutorials
 
-- [Git mit Bitbucket](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
+- [Git mit Bitbucket &#8599;](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
 
-- [Documentation git scm](https://git-scm.com/docs/gittutorial)
+- [Documentation git scm &#8599;](https://git-scm.com/docs/gittutorial)
 
   > git scm: Git - gittutorial Documentation
 
-- [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [About Pull Requests &#8599;](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 ---
 
@@ -34,15 +34,15 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - ##### [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
 
-- ##### [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- ##### [Markdown Cheat Sheet &#8599;](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
 
-- [GitHub Docs](https://docs.github.com/en)
+- [GitHub Docs &#8599;](https://docs.github.com/en)
 
-- [GitHub for Beginners](https://github.com/robbdouglas/web-dev-tutorials)
+- [GitHub for Beginners &#8599;](https://www.freecodecamp.org/news/introduction-to-git-and-github/)
 
-- [Unicode](https://www.compart.com/de/unicode/html)
+- [Unicode &#8599;](https://www.compart.com/de/unicode/html)
 
 - [Vim](./cheat-sheets/vim-cheatsheet.pdf)
 
