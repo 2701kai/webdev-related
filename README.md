@@ -91,6 +91,8 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Ubuntu
 
+### [Upgrade auf Ubuntu 22.04](./ubuntu_22.04.md)
+
 . .deb - Pakete installieren:
 
 `sudo dpkg -i PaketName.de`
