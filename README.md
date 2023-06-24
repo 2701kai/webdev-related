@@ -14,7 +14,6 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ---
 
-
 ## Tutorials
 
 - [Git mit Bitbucket](https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud)
@@ -25,7 +24,6 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 - [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
- 
 ---
 
 ## Cheat Sheets
@@ -35,9 +33,9 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - ##### [Emmet Cheat Sheet](./cheat-sheets/emmet.html)
 
 - ##### [Linux Commandline Cheat Sheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/linux-command-line.pdf)
- 
+
 - ##### [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
- 
+
 - [myGithubCheatSheet](https://github.com/2701kai/webdev-related/blob/main/cheat-sheets/git-cheat-sheet.md)
 
 - [GitHub Docs](https://docs.github.com/en)
@@ -49,7 +47,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Vim](./cheat-sheets/vim-cheatsheet.pdf)
 
 - [more Vim]()
- 
+
 <hr>
 
 ## Exercises + Solutions
@@ -62,10 +60,6 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
 - [Listmania](./solutions/listmania/index.html)
 - [How about IDs](./solutions/howaboutids/index.html)
-
-
-
----
 
 #### UI Basics
 

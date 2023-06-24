@@ -1,4 +1,4 @@
-# Update von Ubuntu 20.04 LTS auf 22.04 LTS
+# Upgrade von Ubuntu 20.04 LTS auf 22.04 LTS
 
 - natürlich alles im Terminal: `CTRL + SHIFT + t`. Darin:
 
