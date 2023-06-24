@@ -79,7 +79,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ## Online Playgrounds
 
-- [Visualizing Git](https://git-school.github.io/visualizing-git/)
+- [Visualizing Git &#8599;](https://git-school.github.io/visualizing-git/)
 
 ---
 
