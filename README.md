@@ -99,6 +99,12 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 
 ---
 
+## Apps, Tools, Programme..
+
+### [Apps](./setup/apps.md)
+
+---
+
 ## Inspiration, Patience, Brilliance, Love or &#10084;, _Feel-Dank-f&uuml;r-alles:_
 
 ### - [Ga&euml;l](https://github.com/gael-src)
