@@ -60,6 +60,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Collaborating + Review (Pull Requests)](./solutions/collaborating/README.md)
 - [Listmania](./solutions/listmania/index.html)
 - [How about IDs](./solutions/howaboutids/index.html)
+- [SweetSpot](./solutions/sweetspot/index.html)
 
 #### UI Basics
 
