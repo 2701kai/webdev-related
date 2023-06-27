@@ -69,3 +69,9 @@ i {
 #contact-page {
   background-color: none;
 }
+
+/* Lösung 27.6. 10:00:  */
+
+section footer nav {
+  background-color: #fff;
+}
