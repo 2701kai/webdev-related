@@ -43,22 +43,30 @@ ul {
 
 li {
   color: #963629;
-  font-size: 2rem;
+  /* Aufgabe nicht gelesen..
+  font-size: 2rem; */
+  font-size: 2em;
 }
 
 .li1 {
   background-color: antiquewhite;
-  height: 5rem;
+  /* Aufgabe nicht gelesen..
+  height: 5rem; */
+  height: 2.5em;
 }
 
 .li2 {
   background-color: #e9d1b3;
-  height: 10rem;
+  /* Aufgabe nicht gelesen..
+  height: 10rem; */
+  height: 5em;
 }
 
 .li3 {
   background-color: #d6a67a;
-  height: 15rem;
+  /* Aufgabe nicht gelesen..
+  height: 15rem; */
+  height: 7.5em;
 }
 
 .p1 {
