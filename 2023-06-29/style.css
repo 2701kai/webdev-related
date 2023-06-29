@@ -1,3 +1,6 @@
+:root {
+    font-size: 10px;
+}
 html {
   scroll-behavior: smooth;
   /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
@@ -32,12 +35,27 @@ h1,
 h2 {
   color: #a2ff86;
 }
+h1 {
+    text-align: center;
+}
+
+/* 1. p size */
+/* 2. img size */
+
+p {
+    font-size: 2.5em;
+}
+
 
 section {
   border: 2px solid red;
   padding: 10px;
-  /* width: 100%;
-  % bezieht sich IMMER AUF PARENT ELEMENT */
+  width: 100%;
+  /* % bezieht sich IMMER AUF PARENT ELEMENT */
+  /* min-height: 60vh; */
+  height: 60vh;
+  /* vertical space between sections */
+  
 }
 
 img {
@@ -48,6 +66,8 @@ img {
   border-radius: 5px;
   /* float: left;
   margin-right: 10px; */
+  width: auto;
+  height: 80%;
    
 }
 
