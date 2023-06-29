@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+  /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
+  /* color-scheme: dark light; */
+  width: 100vw;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------
+  colorhunt.co
+  --------------------------------------------------------------- */
+
+/* #164B60
+  #1B6B93
+  #4FC0D0
+  #A2FF86 */
+
+body {
+  background-color: #164b60;
+  color: #1b6b93;
+  /* alle Elemente bekommen diese Farbe */
+}
+
+h1,
+h2 {
+  color: #a2ff86;
+}
+
+section {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+img {
+  /* border: 2px solid green; */
+  /* border: 20px groove #a2ff86; */
+  /* border: 20px outset #a2ff86; */
+  border: 2px solid #a2ff86;
+  border-radius: 5px;
+}
