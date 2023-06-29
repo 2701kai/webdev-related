@@ -43,4 +43,26 @@ img {
   /* border: 20px outset #a2ff86; */
   border: 2px solid #a2ff86;
   border-radius: 5px;
+  /* float: left; */
+  margin-right: 10px;
+   
+}
+
+/* semantic name */
+
+
+/* functional name */
+.float-left{
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+
+
+section {
+
 }
