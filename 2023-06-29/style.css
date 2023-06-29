@@ -25,6 +25,7 @@ body {
   background-color: #164b60;
   color: #1b6b93;
   /* alle Elemente bekommen diese Farbe */
+  width: 100vw;
 }
 
 h1,
@@ -35,6 +36,8 @@ h2 {
 section {
   border: 2px solid red;
   padding: 10px;
+  /* width: 100%;
+  % bezieht sich IMMER AUF PARENT ELEMENT */
 }
 
 img {
@@ -43,8 +46,8 @@ img {
   /* border: 20px outset #a2ff86; */
   border: 2px solid #a2ff86;
   border-radius: 5px;
-  /* float: left; */
-  margin-right: 10px;
+  /* float: left;
+  margin-right: 10px; */
    
 }
 
@@ -54,15 +57,14 @@ img {
 /* functional name */
 .float-left{
     float: left;
+    margin-right: 10px;
 }
 
 .float-right {
     float: right;
+    margin-left: 10px;
 }
 
 
 
 
-section {
-
-}
