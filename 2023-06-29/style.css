@@ -9,6 +9,8 @@ html {
   height: 100vh;
 }
 
+/* before and after pseudo-elements: */
+/* https://www.youtube.com/watch?v=zGiirUiWslI */
 *,
 *:before,
 *:after {
@@ -93,4 +95,17 @@ a {
   font-size: 5em;
   margin: 20px;
   color: blue;
+}
+
+/* Giaco:  */
+
+/* clear works only with BLOCK ELEMENTS */
+.clear-float {
+    clear: both;
+    
+}
+
+/* ..und small ist inline element */
+small {
+    font-size: 1.8em;
 }
