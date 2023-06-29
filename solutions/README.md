@@ -20,3 +20,19 @@
 **[Branch - Out](./branch-out.md)** (15.6.2023)
 
 **[Collaborating + Review (Pull Requests)](./collaborating/README.md)** (19.6.2023)
+
+---
+
+
+
+**[Managing Branches](../solutions/managing-branches.md)**
+
+**[Collaborating + Review (Pull Requests)](../solutions/collaborating/README.md)**
+
+**[Listmania](../solutions/listmania/index.html)**
+
+**[How about IDs](../solutions/howaboutids/index.html)**
+
+**[SweetSpot](../solutions/sweetspot/index.html)**
+
+**[Build a Blog](../solutions/build-a-blog/index.html)**

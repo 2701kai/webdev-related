@@ -61,6 +61,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [Listmania](./solutions/listmania/index.html)
 - [How about IDs](./solutions/howaboutids/index.html)
 - [SweetSpot](./solutions/sweetspot/index.html)
+- [Build a Blog](./solutions/build-a-blog/index.html)
 
 #### UI Basics
 
