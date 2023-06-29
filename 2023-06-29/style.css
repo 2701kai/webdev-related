@@ -101,11 +101,17 @@ a {
 
 /* clear works only with BLOCK ELEMENTS */
 .clear-float {
-    clear: both;
-    
+  clear: both;
 }
 
 /* ..und small ist inline element */
 small {
-    font-size: 1.8em;
+  font-size: 1.8em;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 5px; */
+  border-radius: 50%;
 }
