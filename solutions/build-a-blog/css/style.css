@@ -1,0 +1,78 @@
+:root {
+  color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #575454;
+  width: 100vw;
+}
+
+section {
+  /* margin: 50px 0;
+    padding: 10px; */
+  /* ach, ist ja unten schon.. */
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+.post {
+  /* width: 400px; */
+  width: 80vw;
+  /* background: #eee; */
+  border: 1px solid black;
+  /* margin: 50px 0; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-content: center;
+}
+
+.sub-post {
+  width: 95vw;
+  object-fit: cover;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.float-left {
+  float: left;
+  margin-right: 10px;
+  /* margin: 10px; */
+}
+
+.float-right {
+  float: right;
+  /* margin: 10px */
+  margin-left: 10px;
+}
+
+img {
+  border: 3px solid rgb(238, 11, 11);
+  margin-top: 1em;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-50-percent {
+  width: 50%;
+}
+
+a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: blue;
+  /* margin-bottom: 1em;
+    padding-bottom: 50px; */
+}
+
+a:hover {
+  color: #fc5f04;
+}
