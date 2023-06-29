@@ -1,5 +1,5 @@
 :root {
-    font-size: 10px;
+  font-size: 10px;
 }
 html {
   scroll-behavior: smooth;
@@ -36,26 +36,25 @@ h2 {
   color: #a2ff86;
 }
 h1 {
-    text-align: center;
+  text-align: center;
+  font-size: 4em;
 }
 
 /* 1. p size */
-/* 2. img size */
-
 p {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
-
 
 section {
   border: 2px solid red;
-  padding: 10px;
+  /* padding: 10px; */
+  /* nein, kai.. besser: */
+  margin: 10px 0;
   width: 100%;
   /* % bezieht sich IMMER AUF PARENT ELEMENT */
   /* min-height: 60vh; */
   height: 60vh;
   /* vertical space between sections */
-  
 }
 
 img {
@@ -67,24 +66,31 @@ img {
   /* float: left;
   margin-right: 10px; */
   width: auto;
+
+  /* 2. img size */
   height: 80%;
-   
+  margin: 10px;
 }
 
 /* semantic name */
 
+.section-left {
+  background-image: url(./assets/images/brazil.webp);
+}
 
 /* functional name */
-.float-left{
-    float: left;
-    margin-right: 10px;
+.float-left {
+  float: left;
+  margin-right: 10px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 10px;
+  float: right;
+  margin-left: 10px;
 }
 
-
-
-
+a {
+  font-size: 5em;
+  margin: 20px;
+  color: blue;
+}
