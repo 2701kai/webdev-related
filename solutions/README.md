@@ -37,4 +37,4 @@
 
 **[Build a Blog](../solutions/build-a-blog/index.html)** (29.6.2023)
 
-**[Accessability](../solutions/accessibility/index.html)**
+**[Accessibility](../solutions/accessibility/index.html)**
