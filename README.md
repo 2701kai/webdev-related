@@ -62,6 +62,7 @@ Hallo **Lieblingsklasse**, lasst uns was bauen!
 - [How about IDs](./solutions/howaboutids/index.html)
 - [SweetSpot](./solutions/sweetspot/index.html)
 - [Build a Blog](./solutions/build-a-blog/index.html)
+- [Accessibility](../solutions/accessibility/index.html)
 
 #### UI Basics
 
