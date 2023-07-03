@@ -99,7 +99,7 @@ a {
 
 /* Giaco:  */
 
-/* clear works only with BLOCK ELEMENTS */
+/* clear-float works only with BLOCK ELEMENTS */
 .clear-float {
   clear: both;
 }
