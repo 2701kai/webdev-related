@@ -1,67 +1,111 @@
 :root {
-    color: #eee;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  /* * {
+  color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* * {
     margin: 0.25rem;
   } */
-  
-  body {
-    background-color: #575454;
-    width: 100vw;
-  }
 
-  h1,
-  h2,
-  h3 {
-    font-weight: bold;
-    letter-spacing: 0.18em;
-    text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
-  }
-  
-  a:hover,
-  a:focus {
-    color: #ff4a11;
-    font-weight: bold;
-    text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
-  }
-  
-  code {
-    /* background-color: #272626; */
-    background-color: #6f6b6b;
-    padding: 5px 8px 5px;
-  }
-  
-/* img ist inline element */
-  /* img {
+body {
+  background-color: #575454;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+}
+
+a:hover,
+a:focus {
+  color: #ff4a11;
+  font-weight: bold;
+  text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+}
+
+code {
+  /* background-color: #272626; */
+  background-color: #6f6b6b;
+  padding: 5px 8px 5px;
+}
+
+/* img ist inline element  */
+
+/* img {
     border: 3px solid rgb(238, 11, 11);
     margin-top: 1em;
     width: 250px;
     height: 250px;
-    /* height: 100%; */
+    height: 100%;
     object-fit: cover;
-    /* object-fit: contain; */
-    /* border-radius: 50%; */
-  } */
-  
+    object-fit: contain;
+    border-radius: 50%;
+   } */
 
-  /* -----------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------
   2023-07-04
   ----------------------------------------------------------------------------- */
 #main-header {
-    height: 100vh;
+  height: 100vh;
+  border: #eee 1px solid;
 }
 
 .header {
-    height: 100vh;
+  height: 100vh;
 }
 
-  .header-image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+.header-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+div {
+  width: 250px;
+  border: 2px solid #ff4a11;
+  margin-bottom: 10px;
+}
+
+#taller {
+  height: 50px;
+}
+
+#shorter {
+  height: 25px;
+}
+
+#parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#child {
+  background-color: #ff4a11;
+  width: 75%;
+  height: 50%;
+  margin: auto;
+}
+
+.over-flow {
+  border: 4px solid #1188ff;
+  overflow: hidden;
+  width: 400px;
+  height: 150px;
+}
+
+aside {
+  background-color: #1164ff;
+  width: 30%;
+  float: right;
+  /* height: 100%;
+  margin: auto; */
+}

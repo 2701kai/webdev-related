@@ -1,0 +1,84 @@
+/**
+
+    Almost all the CSS you need are here... almost!
+
+    You'll just need to add something for the green hover.
+
+    This is also a nice hint what kind of content to use!
+
+**/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredient {
+  background: #e4f7e4; /* Light blueish-green color */
+  border: 2px solid #d5d5d5; /* Light gray color */
+}
+
+/* Hint; look at the example image. The _first_ Unordered List has a light blue background! */
+.ingredient ul:nth-of-type(1) {
+  background: lightblue;
+  list-style-type: square;
+}
+
+/* Hint; look at the example image. The _second_ Unordered List has a light green background! */
+.ingredient ul:nth-of-type(2) {
+  background: lightgreen;
+  list-style-type: circle;
+}
+
+.ingredient ul:nth-of-type(3) {
+  background: orange;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+/*
+Hint: this targets
+    - all the links (a)
+    - inside the third div on the page (div:nth-last-of-type(3)
+*/
+div:nth-of-type(3) a {
+  color: red;
+  text-decoration: none;
+}
+
+div:nth-of-type(4) a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+div:nth-of-type(4) a:hover {
+  /* color: orange; */
+  color: green;
+}
+
+/* myAdditions */
+
+/* FEHLER: */
+/* i {
+  color: lightblue;
+} */
+
+.ingedient {
+  border: 2px solid #d5d5d5;
+  background-color: #e4f7e4;
+}
+
+/* git commit -m "CSS: defined Classes .ingredient + .method according to source code; CTRL + p --> emmet wrap with abbreviation --> div.method */
+
+.method {
+  display: block;
+}
+
+/* ah, forgot to read the deired tasks ENTIRELY.. therefore update:  */
+/* a:hover {
+  color: green;
+} */
+
+/* didn´t work, changed "div:nth-of-type(4) a:hover" above */
