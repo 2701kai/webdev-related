@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"); */
+
+@import url(./assets/Oswald-VariableFont_wght.ttf);
+
+:root {
+  font-size: 10px;
+  color: #dcdcdc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+}
+
+/* ----------------------------------------------------- */
+/*    */
+/* ----------------------------------------------------- */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+}
