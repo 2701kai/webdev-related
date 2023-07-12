@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 10px;
+  color: #dcdcdc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+}
+
+/* ----------------------------------------------------- */
+/*    */
+/* ----------------------------------------------------- */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 5rem;
+  text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+}
+
+div {
+  border: 2px solid orange;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  /* positionieren in der Mitte:  */
+  text-align: center;
+  padding-top: 90px;
+}
+
+.static {
+  position: static;
+  right: 10px;
+  background-color: cornflowerblue;
+  /* margin: auto; */
+}
+
+.relative {
+  position: relative;
+  /* right: 10px; */
+  left: 50px;
+  background-color: darkolivegreen;
+  /* margin: auto; */
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  background-color: darkorange;
+  /* margin: auto; */
+}
+
+.absolute {
+  position: absolute;
+  top: 10;
+  right: 10px;
+  background-color: darkorchid;
+  /* margin: auto; */
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+  right: 10px;
+  background-color: darkred;
+  /* margin: auto; */
+}
