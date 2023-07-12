@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  color: #dcdcdc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+}
+
+/* -----------------------------------------------------
+  nav main
+  ----------------------------------------------------- */
+.nav-main {
+  min-width: 100vw;
+  background-color: #26262643;
+  /* background-color: transparent; */
+  /* margin: 10px; */
+  /* margin-top: -50px; */
+  /* display: flex; */
+  justify-content: baseline;
+  /* margin-bottom: 100px; */
+  padding: 10px 35px;
+  position: fixed;
+  /* position: sticky; */
+  z-index: 1000;
+}
+
+.nav-main img {
+  height: 20px;
+  margin: -5px;
+}
+
+.nav-main i {
+  height: 25px;
+}
+
+.nav-main a {
+  /* color: #2ea3f2; */
+  color: #222222;
+  /* color: #666666; */
+  color: rgb(255, 255, 255, 0.8);
+  color: #b2c9f8;
+  color: #447ff4;
+  text-decoration: none;
+  font-weight: bold;
+  /* CHEESES, STELL ICH MICH AN.. */
+  margin: 10px;
+  padding: 0 0 5px;
+}
+
+.nav-main a:hover {
+  color: #ff4a11;
+}
+
+h1 {
+  /* z-index: 100; */
+  text-align: center;
+  font-size: 7em;
+  opacity: 0.6;
+}
+
+/* -----------------------------------------------------
+  main
+  ----------------------------------------------------- */
+
+main {
+    border: #ff4a11 5px solid;
+  padding-top: 22em;
+  min-height: 100vh;
+  background-image: url(https://i0.wp.com/storage.googleapis.com/gweb-uniblog-publish-prod/original_images/tenor_1.gif?w=900&quality=85&ssl=1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.aenne {
+  margin-top: 100px;
+  text-align: center;
+}
