@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form id="person-form" action="https://formspree.io/f/xnqknpze" method="post">
+      <label for="first-name">First Name</label>
+      <input
+        type="text"
+        id="first-name"
+        name="first-name"
+        placeholder="first name"
+      />
+
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" />
+
+      <label for="male">male</label>
+      <input type="radio" id="male" name="gender" />
+
+      <label for="female">female</label>
+      <input type="radio" id="female" name="gender" />
+
+      <label for="other">other</label>
+      <input type="radio" id="other" name="gender" />
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="0" max="100" />
+
+      <input type="submit" value="send" />
+    </form>
+  </body>
+</html>
