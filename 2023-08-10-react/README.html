@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>README.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+    <style>
+      /* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+      /*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+      body {
+        font-family: var(
+          --vscode-markdown-font-family,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe WPC",
+          "Segoe UI",
+          "Ubuntu",
+          "Droid Sans",
+          sans-serif
+        );
+        font-size: var(--vscode-markdown-font-size, 14px);
+        padding: 0 26px;
+        line-height: var(--vscode-markdown-line-height, 22px);
+        word-wrap: break-word;
+      }
+
+      #code-csp-warning {
+        position: fixed;
+        top: 0;
+        right: 0;
+        color: white;
+        margin: 16px;
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        background-color: #444444;
+        cursor: pointer;
+        padding: 6px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+      }
+
+      #code-csp-warning:hover {
+        text-decoration: none;
+        background-color: #007acc;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+      }
+
+      body.scrollBeyondLastLine {
+        margin-bottom: calc(100vh - 22px);
+      }
+
+      body.showEditorSelection .code-line {
+        position: relative;
+      }
+
+      body.showEditorSelection .code-active-line:before,
+      body.showEditorSelection .code-line:hover:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -12px;
+        height: 100%;
+      }
+
+      body.showEditorSelection li.code-active-line:before,
+      body.showEditorSelection li.code-line:hover:before {
+        left: -30px;
+      }
+
+      .vscode-light.showEditorSelection .code-active-line:before {
+        border-left: 3px solid rgba(0, 0, 0, 0.15);
+      }
+
+      .vscode-light.showEditorSelection .code-line:hover:before {
+        border-left: 3px solid rgba(0, 0, 0, 0.4);
+      }
+
+      .vscode-light.showEditorSelection .code-line .code-line:hover:before {
+        border-left: none;
+      }
+
+      .vscode-dark.showEditorSelection .code-active-line:before {
+        border-left: 3px solid rgba(255, 255, 255, 0.4);
+      }
+
+      .vscode-dark.showEditorSelection .code-line:hover:before {
+        border-left: 3px solid rgba(255, 255, 255, 0.6);
+      }
+
+      .vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+        border-left: none;
+      }
+
+      .vscode-high-contrast.showEditorSelection .code-active-line:before {
+        border-left: 3px solid rgba(255, 160, 0, 0.7);
+      }
+
+      .vscode-high-contrast.showEditorSelection .code-line:hover:before {
+        border-left: 3px solid rgba(255, 160, 0, 1);
+      }
+
+      .vscode-high-contrast.showEditorSelection
+        .code-line
+        .code-line:hover:before {
+        border-left: none;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a:focus,
+      input:focus,
+      select:focus,
+      textarea:focus {
+        outline: 1px solid -webkit-focus-ring-color;
+        outline-offset: -1px;
+      }
+
+      hr {
+        border: 0;
+        height: 2px;
+        border-bottom: 2px solid;
+      }
+
+      h1 {
+        padding-bottom: 0.3em;
+        line-height: 1.2;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: normal;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > th {
+        text-align: left;
+        border-bottom: 1px solid;
+      }
+
+      table > thead > tr > th,
+      table > thead > tr > td,
+      table > tbody > tr > th,
+      table > tbody > tr > td {
+        padding: 5px 10px;
+      }
+
+      table > tbody > tr + tr > td {
+        border-top: 1px solid;
+      }
+
+      blockquote {
+        margin: 0 7px 0 5px;
+        padding: 0 16px 0 10px;
+        border-left-width: 5px;
+        border-left-style: solid;
+      }
+
+      code {
+        font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New",
+          monospace, "Droid Sans Fallback";
+        font-size: 1em;
+        line-height: 1.357em;
+      }
+
+      body.wordWrap pre {
+        white-space: pre-wrap;
+      }
+
+      pre:not(.hljs),
+      pre.hljs code > div {
+        padding: 16px;
+        border-radius: 3px;
+        overflow: auto;
+      }
+
+      pre code {
+        color: var(--vscode-editor-foreground);
+        tab-size: 4;
+      }
+
+      /** Theming */
+
+      .vscode-light pre {
+        background-color: rgba(220, 220, 220, 0.4);
+      }
+
+      .vscode-dark pre {
+        background-color: rgba(10, 10, 10, 0.4);
+      }
+
+      .vscode-high-contrast pre {
+        background-color: rgb(0, 0, 0);
+      }
+
+      .vscode-high-contrast h1 {
+        border-color: rgb(0, 0, 0);
+      }
+
+      .vscode-light table > thead > tr > th {
+        border-color: rgba(0, 0, 0, 0.69);
+      }
+
+      .vscode-dark table > thead > tr > th {
+        border-color: rgba(255, 255, 255, 0.69);
+      }
+
+      .vscode-light h1,
+      .vscode-light hr,
+      .vscode-light table > tbody > tr + tr > td {
+        border-color: rgba(0, 0, 0, 0.18);
+      }
+
+      .vscode-dark h1,
+      .vscode-dark hr,
+      .vscode-dark table > tbody > tr + tr > td {
+        border-color: rgba(255, 255, 255, 0.18);
+      }
+    </style>
+
+    <style>
+      /* Tomorrow Theme */
+      /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+      /* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+      /* Tomorrow Comment */
+      .hljs-comment,
+      .hljs-quote {
+        color: #8e908c;
+      }
+
+      /* Tomorrow Red */
+      .hljs-variable,
+      .hljs-template-variable,
+      .hljs-tag,
+      .hljs-name,
+      .hljs-selector-id,
+      .hljs-selector-class,
+      .hljs-regexp,
+      .hljs-deletion {
+        color: #c82829;
+      }
+
+      /* Tomorrow Orange */
+      .hljs-number,
+      .hljs-built_in,
+      .hljs-builtin-name,
+      .hljs-literal,
+      .hljs-type,
+      .hljs-params,
+      .hljs-meta,
+      .hljs-link {
+        color: #f5871f;
+      }
+
+      /* Tomorrow Yellow */
+      .hljs-attribute {
+        color: #eab700;
+      }
+
+      /* Tomorrow Green */
+      .hljs-string,
+      .hljs-symbol,
+      .hljs-bullet,
+      .hljs-addition {
+        color: #718c00;
+      }
+
+      /* Tomorrow Blue */
+      .hljs-title,
+      .hljs-section {
+        color: #4271ae;
+      }
+
+      /* Tomorrow Purple */
+      .hljs-keyword,
+      .hljs-selector-tag {
+        color: #8959a8;
+      }
+
+      .hljs {
+        display: block;
+        overflow-x: auto;
+        color: #4d4d4c;
+        padding: 0.5em;
+      }
+
+      .hljs-emphasis {
+        font-style: italic;
+      }
+
+      .hljs-strong {
+        font-weight: bold;
+      }
+    </style>
+
+    <style>
+      /*
+ * Markdown PDF CSS
+ */
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
+          "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+        padding: 0 12px;
+      }
+
+      pre {
+        background-color: #f8f8f8;
+        border: 1px solid #cccccc;
+        border-radius: 3px;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+      }
+
+      pre:not(.hljs) {
+        padding: 23px;
+        line-height: 19px;
+      }
+
+      blockquote {
+        background: rgba(127, 127, 127, 0.1);
+        border-color: rgba(0, 122, 204, 0.5);
+      }
+
+      .emoji {
+        height: 1.4em;
+      }
+
+      code {
+        font-size: 14px;
+        line-height: 19px;
+      }
+
+      /* for inline code */
+      :not(pre):not(.hljs) > code {
+        color: #c9ae75; /* Change the old color so it seems less like an error */
+        font-size: inherit;
+      }
+
+      /* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+      .page {
+        page-break-after: always;
+      }
+    </style>
+
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+  </head>
+  <body>
+    <script>
+      mermaid.initialize({
+        startOnLoad: true,
+        theme:
+          document.body.classList.contains("vscode-dark") ||
+          document.body.classList.contains("vscode-high-contrast")
+            ? "dark"
+            : "default",
+      });
+    </script>
+    <h1 id="react---die-evolution-der-webentwicklung">
+      React - Die Evolution der Webentwicklung
+    </h1>
+    <p>
+      <strong>React</strong> ist eine <strong>JavaScript-Bibliothek</strong>,
+      die die Art und Weise, wie <strong>Webanwendungen</strong> entwickelt
+      werden, revolutioniert hat. Entwickelt von Facebook, hat sich React als
+      populäre Wahl für die Erstellung von Benutzeroberflächen in modernen
+      Webanwendungen etabliert.
+    </p>
+    <blockquote>
+      <p>
+        Unterschied library und framework: <a href="library.md">learn more</a>
+      </p>
+    </blockquote>
+    <h3 id="entstehungsgeschichte">Entstehungsgeschichte:</h3>
+    <p>
+      Die Ursprünge von React reichen zurück bis in das Jahr 2011, als
+      <strong>Jordan Walke</strong>, ein Softwareingenieur bei Facebook, begann,
+      an einer neuen Art von Technologie zu arbeiten, die es ermöglichen sollte,
+      Benutzeroberflächen effizienter und reaktionsfreudiger zu gestalten. Das
+      Ergebnis war React, das erstmals 2013 auf der Facebook-Entwicklerkonferenz
+      vorgestellt wurde. React wurde von Anfang an als Lösung für die Probleme
+      der komplexen UI-Verwaltung und -Aktualisierung entwickelt, mit denen
+      Facebook aufgrund seiner riesigen und dynamischen Plattform konfrontiert
+      war.
+    </p>
+    <blockquote>
+      <p>Die Geschichte von React: https://youtu.be/8pDqJVdNa44</p>
+    </blockquote>
+    <h3 id="herausragende-merkmale">Herausragende Merkmale:</h3>
+    <h4 id="komponentenbasierte-architektur">
+      Komponentenbasierte Architektur:
+    </h4>
+    <p>
+      React fördert die Komponenten-basierte Entwicklung, bei der UIs in
+      wiederverwendbare und eigenständige Komponenten aufgeteilt werden. Diese
+      Komponenten können unabhängig voneinander entwickelt, getestet und
+      gewartet werden.
+    </p>
+    <h4 id="virtuelles-dom">Virtuelles DOM:</h4>
+    <p>
+      React verwendet ein <a href="virtual-dom.md">virtuelles DOM</a>, das
+      Änderungen im UI effizient verarbeitet. Anstatt direkt auf das eigentliche
+      DOM zuzugreifen, erstellt React eine virtuelle Repräsentation, die bei
+      Änderungen optimiert auf das DOM angewendet wird, um die Leistung zu
+      optimieren.
+    </p>
+    <p>
+      <strong>Declarative Syntax</strong>: Mit React wird eine deklarative
+      Syntax verwendet, bei der Entwickler den gewünschten Zustand der
+      Benutzeroberfläche beschreiben, während React die tatsächlichen
+      DOM-Aktualisierungen verwaltet.
+    </p>
+    <p>
+      <strong>Unidirektionale Datenfluss</strong>: React verwendet einen
+      unidirektionalen Datenfluss, bei dem Daten von übergeordneten zu
+      untergeordneten Komponenten fließen. Dies erleichtert das Verständnis der
+      Datenflüsse und vereinfacht die Fehlersuche.
+    </p>
+    <p>
+      <strong>Hooks</strong>: React hat mit der Einführung von Hooks die
+      Entwicklung funktionaler Komponenten vereinfacht. Hooks ermöglichen die
+      Verwendung von Zustand und anderen React-Funktionen in funktionalen
+      Komponenten, ohne dass Klassenkomponenten benötigt werden.
+    </p>
+    <h3 id="warum-ist-react-beliebt">Warum ist React beliebt?</h3>
+    <p>
+      React hat sich aufgrund seiner zahlreichen Vorteile und Merkmale zu einer
+      der beliebtesten Bibliotheken für die Webentwicklung entwickelt:
+    </p>
+    <p>
+      <strong>Performance</strong>: Das virtuelle DOM und der effiziente
+      Aktualisierungsprozess verbessern die Leistung von Webanwendungen
+      erheblich.
+    </p>
+    <p>
+      <strong>Wiederverwendbarkeit</strong>: Die komponentenbasierte Architektur
+      ermöglicht die einfache Wiederverwendung von Code und beschleunigt die
+      Entwicklung.
+    </p>
+    <p>
+      <strong>Community und Ökosystem</strong>: React verfügt über eine große
+      und aktive Entwicklergemeinschaft, die eine Fülle von Ressourcen,
+      Bibliotheken und Tools geschaffen hat, die die Entwicklung beschleunigen.
+    </p>
+    <p>
+      <strong>Integration</strong>: React kann nahtlos in verschiedene
+      Umgebungen und Technologiestacks integriert werden, einschließlich mobiler
+      Apps, nativer Anwendungen und serverseitiger Rendern.
+    </p>
+    <p>
+      <strong>Flexibilität</strong>: Entwickler haben die Freiheit, React mit
+      anderen Bibliotheken und Frameworks zu kombinieren, um maßgeschneiderte
+      Lösungen zu erstellen.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass React nicht nur eine technologische
+      Innovation, sondern auch ein Katalysator für fortschrittliche
+      Webentwicklung ist. Durch die Kombination von deklarativer Syntax,
+      virtuellem DOM und komponentenbasierter Architektur hat React die Art und
+      Weise, wie Entwickler Benutzeroberflächen erstellen, neu definiert und
+      sich zu einem Eckpfeiler der modernen Webentwicklung entwickelt.
+    </p>
+    <hr />
+    <h3 id="grundlagen-von-react">Grundlagen von React:</h3>
+    <p>
+      <strong>Komponenten</strong>: Die Komponente bildet das Herzstück von
+      React. Sie ist eine eigenständige Einheit, die sowohl den Zustand (State)
+      als auch die Darstellung (UI) kapselt. Komponenten können wiederverwendbar
+      gestaltet werden, was die Entwicklung und Wartung von UIs erheblich
+      erleichtert.
+    </p>
+    <p>
+      <strong>Virtuelles DOM</strong>: Das virtuelle DOM ist eine abstrakte
+      Darstellung des tatsächlichen DOMs. Bei Änderungen im Zustand einer
+      Komponente erstellt React eine virtuelle Version des DOMs, vergleicht sie
+      mit der vorherigen Version und aktualisiert nur die tatsächlich
+      veränderten Teile im DOM. Dies optimiert die Leistung und verbessert die
+      Effizienz.
+    </p>
+    <p>
+      <strong>JSX</strong> (JavaScript XML): JSX ist eine Syntaxerweiterung für
+      JavaScript, die es ermöglicht, HTML-ähnlichen Code innerhalb von
+      JavaScript zu schreiben. Es ermöglicht eine intuitive Beschreibung der
+      Benutzeroberfläche und erleichtert die Komposition von Komponenten.
+    </p>
+    <p>
+      <strong>Unidirektionaler Datenfluss</strong>: React folgt einem
+      unidirektionalen Datenfluss. Daten fließen immer von der übergeordneten
+      Komponente zur untergeordneten Komponente. Dies fördert die
+      Vorhersagbarkeit und erleichtert die Fehlerbehebung.
+    </p>
+    <h3 id="react-syntax">React-Syntax:</h3>
+    <p>
+      Hier ist ein einfaches Beispiel für React-Syntax unter Verwendung von JSX:
+    </p>
+    <pre
+      class="hljs"
+    ><code><div><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+  <span class="hljs-keyword">constructor</span>(props) {
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">count</span>: <span class="hljs-number">0</span> };
+  }
+
+  incrementCount = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+    <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">count</span>: <span class="hljs-keyword">this</span>.state.count + <span class="hljs-number">1</span> });
+  };
+
+  render() {
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Counter App<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Count: {this.state.count}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.incrementCount}</span>&gt;</span>Increment<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    );
+  }
+}
+</div></code></pre>
+    <p>
+      In diesem Beispiel wird eine einfache Komponente namens
+      <strong>App</strong> erstellt. Sie enthält einen Zustand (count) und eine
+      Methode (incrementCount), die den Zustand aktualisiert. Die JSX-Syntax
+      ermöglicht das nahtlose Einbetten von HTML-ähnlichem Code in JavaScript,
+      was die Erstellung der Benutzeroberfläche erleichtert.
+    </p>
+    <h3 id="zusammenhang-mit-nodejs">Zusammenhang mit Node.js:</h3>
+    <p>
+      Node.js ist eine serverseitige Laufzeitumgebung für JavaScript, die es
+      Entwicklern ermöglicht, JavaScript auch außerhalb des Browsers
+      auszuführen. Der Zusammenhang zwischen React und Node.js liegt in der
+      Möglichkeit, serverseitig gerenderte Anwendungen zu erstellen, die eine
+      bessere Leistung und SEO-Freundlichkeit bieten.
+    </p>
+    <p>
+      Frameworks wie Next.js bauen auf React und Node.js auf, um serverseitiges
+      Rendern und andere fortschrittliche Funktionen zu ermöglichen.
+      Serverseitig gerenderte React-Anwendungen können die initiale Ladezeit
+      verringern, da der Server den HTML-Inhalt vor dem Senden an den Browser
+      generiert. Dies verbessert die Benutzererfahrung und die
+      Suchmaschinenoptimierung.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass React auf einer klaren Syntax und
+      grundlegenden Konzepten wie Komponenten und virtuellem DOM aufbaut. Der
+      Zusammenhang mit Node.js ermöglicht die Erstellung leistungsstarker
+      serverseitig gerendeter Anwendungen, die sowohl auf dem Server als auch im
+      Browser ausgeführt werden können, um optimale Benutzererlebnisse zu
+      erzielen.
+    </p>
+  </body>
+</html>
