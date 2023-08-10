@@ -9,7 +9,7 @@
 
 Die Ursprünge von React reichen zurück bis in das Jahr 2011, als **Jordan Walke**, ein Softwareingenieur bei Facebook, begann, an einer neuen Art von Technologie zu arbeiten, die es ermöglichen sollte, Benutzeroberflächen effizienter und reaktionsfreudiger zu gestalten. Das Ergebnis war React, das erstmals 2013 auf der Facebook-Entwicklerkonferenz vorgestellt wurde. React wurde von Anfang an als Lösung für die Probleme der komplexen UI-Verwaltung und -Aktualisierung entwickelt, mit denen Facebook aufgrund seiner riesigen und dynamischen Plattform konfrontiert war.
 
-> Die Geschichte von React: https://youtu.be/8pDqJVdNa44
+> Die Geschichte von React: [Video](https://youtu.be/8pDqJVdNa44)
 
 ### Herausragende Merkmale:
 
