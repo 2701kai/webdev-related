@@ -1,4 +1,6 @@
-# Understanding Jest: A Simple Guide to JavaScript Testing
+# Jest: A Simple Guide to JavaScript Testing
+
+[jest commands](./jest-commands.md)
 
 Jest is a popular, open-source JavaScript testing framework developed and maintained by Facebook. Its primary aim is to aid developers in writing and running tests for their JavaScript code to ensure its correct functionality. From vanilla JavaScript to React and beyond, Jest caters to a broad spectrum of libraries and frameworks.
 

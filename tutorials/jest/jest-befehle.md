@@ -1,5 +1,7 @@
 # Jest: Befehle und Optionen
 
+[zurück](./jest_de.md)
+
 Jest, ein beliebtes JavaScript-Test-Framework, bietet eine Vielzahl von Befehlen und Optionen, um Entwicklern ein anpassbares Testlauf-Erlebnis zu bieten. Hier ist ein Überblick über einige der häufig verwendeten Jest-Befehle.
 
 ## Häufige Jest-Befehle

@@ -1,4 +1,6 @@
-# Verständnis von Jest: Ein einfacher Leitfaden zum JavaScript-Testing
+# Jest: Ein einfacher Leitfaden zum JavaScript-Testing
+
+[Jest Befehle](./jest-befehle.md)
 
 Jest ist ein beliebtes, Open-Source JavaScript-Test-Framework, das von Facebook entwickelt und gepflegt wird. Sein Hauptziel ist es, Entwicklern zu helfen, Tests für ihren JavaScript-Code zu schreiben und auszuführen, um dessen korrekte Funktionalität sicherzustellen. Von reinem JavaScript bis hin zu React und darüber hinaus deckt Jest ein breites Spektrum von Bibliotheken und Frameworks ab.
 
