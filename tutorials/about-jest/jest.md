@@ -1,4 +1,4 @@
-# Jest: A Simple Guide to JavaScript Testing
+# Jest: A Guide to JavaScript Testing
 
 [jest commands](./jest-commands.md)
 
