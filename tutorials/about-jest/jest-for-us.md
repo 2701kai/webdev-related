@@ -12,7 +12,7 @@ Dort jest installieren mit
 npm install jest
 ```
 
-das installiert jest in den neuen node_modules - Ordner:
+das installiert jest in den neuen (lokalen) **node_modules** - Ordner:
 
 ![Alt text](image-1.png)
 
