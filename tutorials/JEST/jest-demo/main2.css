@@ -54,54 +54,72 @@ body {
 
 @media screen and (max-width: 600px) {
   div {
-    width: 100%;
+    flex: 1 1 100%;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
   .flex-item-1 {
-    width: 100%;
+    flex: 1 1 100%;
   }
   .flex-item-2 {
-    width: 100%;
+    flex: 1 1 100%;
   }
   .flex-item-3 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-4 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-5 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-6 {
-    width: 100%;
+    flex: 1 1 100%;
   }
   .flex-item-7 {
-    width: 100%;
+    flex: 1 1 100%;
   }
 }
 
 @media screen and (min-width: 801px) {
   .flex-item-1 {
-    width: 50%;
+    flex: 1 1 50%;
   }
   .flex-item-2 {
-    width: 50%;
+    flex: 1 1 50%;
   }
   .flex-item-3 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-4 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-5 {
-    width: calc(100% / 3);
+    /* Roberts Idee:  */
+    /* width: calc(100% / 3); */
+    /* Lösung zum "Bestehen" des Tests:  */
+    flex: 1 1 33.33%;
   }
   .flex-item-6 {
-    width: 50%;
+    flex: 1 1 50%;
   }
   .flex-item-7 {
-    width: 50%;
+    flex: 1 1 50%;
   }
 }
