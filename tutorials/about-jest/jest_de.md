@@ -1,4 +1,4 @@
-# Jest: Ein einfacher Leitfaden zum JavaScript-Testing
+# Jest: Leitfaden zum JavaScript-Testing
 
 [Jest Befehle](./jest-befehle.md)
 

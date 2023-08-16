@@ -19,11 +19,11 @@
 - 801px und höher: Die Boxen 1 und 2 sollten jeweils 50% einer Zeile einnehmen, 3, 4 und 5 sollten jeweils 33,33% einer Zeile einnehmen und 6 & 7 sollten jeweils 50% einer Zeile einnehmen
 
 Bilder als Referenz:
-![desktop](../demo/Flex-7Boxes/images/desktop.png)
+![desktop](../jest-demo/Flex-7Boxes/images/desktop.png)
 
-![tablet](../demo/Flex-7Boxes/images/tablet.png)
+![tablet](../jest-demo/Flex-7Boxes/images/tablet.png)
 
-![mobile](../demo/Flex-7Boxes/images/mobile.png)
+![mobile](../jest-demo/Flex-7Boxes/images/mobile.png)
 
 ### Regeln
 
