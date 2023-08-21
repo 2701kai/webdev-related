@@ -1,0 +1,318 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr; /* Adjusted to 1 column for full width */
+  padding: 20px 5%;
+  background-color: #fff;
+  align-items: center;
+}
+
+nav {
+  width: 100%; /* Ensure the nav takes the full width */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 100%; /* Ensure it takes the full width */
+  grid-template-areas: "nav-item-1 nav-item-1 . nav-item-3 nav-item-4 nav-item-5 nav-item-6 . nav-item-8 nav-item-8";
+}
+
+#nav-item-1 {
+  grid-area: nav-item-1;
+}
+
+/* #nav-item-2 {
+  grid-area: nav-item-2;
+} */
+
+#nav-item-3 {
+  grid-area: nav-item-3;
+}
+
+#nav-item-4 {
+  grid-area: nav-item-4;
+}
+
+#nav-item-5 {
+  grid-area: nav-item-5;
+}
+
+#nav-item-6 {
+  grid-area: nav-item-6;
+}
+
+/* #nav-item-7 {
+  grid-area: nav-item-7;
+} */
+
+#nav-item-8 {
+  grid-area: nav-item-8;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+.menu {
+  text-align: right;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Main Section Styles */
+
+/* adding "Design" title  */
+/* .main-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto repeat(4, 1fr); 
+  gap: 5px;
+  width: 100%;
+} */
+
+/* Adding "Design" title  */
+/* .title {
+  grid-row: 2;
+  grid-column: 4 / span 3;
+  z-index: 10;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+} */
+
+/* .main-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto auto; 
+  gap: 5px;
+  width: 100%;
+}
+
+.title {
+  grid-row: 2;
+  grid-column: 3 / span 3;
+  font-size: 48px;
+  padding: 20px 0;
+  z-index: 10;
+  position: relative;
+}
+
+.image-grid {
+  grid-row: 2;
+  grid-column: 1 / span 8;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  width: 100%;
+  grid-template-areas:
+    "item-one item-two . . . . item-nine item-nine"
+    ". . item-six . item-five . item-nine item-nine"
+    "item-eight item-eight . item-seven . item-four . ."
+    "item-eight item-eight . . . . item-three .";
+} */
+
+/* image grid */
+
+/* .image-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  width: 100%;
+  grid-template-areas:
+    "item-one item-two . . . . item-nine item-nine"
+    ". . item-six . item-five . item-nine item-nine"
+    "item-eight item-eight . item-seven . item-four . ."
+    "item-eight item-eight . . . . item-three .";
+}
+
+.title {
+  z-index: 10;
+  font-size: 60px;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding: 20px 0;
+  } */
+
+.main-grid {
+  position: relative; /* Added */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto auto; /* First row for title, second row for image grid */
+  gap: 5px;
+  width: 100%;
+}
+
+.title {
+  /* position: absolute; */
+  /* top: 0; 
+  left: 0;  */
+  grid-row: 3;
+  grid-column: 4 / span 3;
+  z-index: 10;
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: 1.2rem;
+  padding-left: 20px;
+  /* padding: 20px 0; */
+  color: #fc471e;
+}
+
+.image-grid {
+  grid-row: 2;
+  grid-column: 1 / span 8;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  width: 100%;
+  grid-template-areas:
+    "item-one item-two . . . . item-nine item-nine"
+    ". . item-six . item-five . item-nine item-nine"
+    "item-eight item-eight . item-seven . item-four . ."
+    "item-eight item-eight . . . . item-three .";
+}
+
+.image-grid img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.overlay-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  grid-row: 2;
+  grid-column: 1 / span 8;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100%;
+}
+
+#item-one {
+  grid-area: item-one;
+  /* grid-area: auto; */
+  /* grid-column: 1 / span 1;
+  grid-row: 1 / span 1; */
+  /* grid-column: 1 / span 4;
+  grid-row: 1 / span 2; */
+}
+#item-two {
+  grid-area: item-two;
+  /* grid-area: auto; */
+  /* grid-column: 2 / span 1;
+  grid-row: 1 / span 1; */
+}
+
+#item-three {
+  grid-area: item-three;
+  /* grid-area: auto; */
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+}
+
+#item-four {
+  grid-area: item-four;
+  /* grid-area: auto; */
+  /* grid-column: 3 / span 2;
+  grid-row: 3 / span 2; */
+}
+
+#item-five {
+  grid-area: item-five;
+  /* grid-area: auto; */
+  /* grid-column: 5 / span 2;
+  grid-row: 3 / span 2; */
+}
+
+#item-six {
+  grid-area: item-six;
+  /* grid-area: auto; */
+  /* grid-column: 7 / span 2;
+  grid-row: 3 / span 2; */
+}
+
+#item-seven {
+  grid-area: item-seven;
+  /* grid-area: auto; */
+  /* grid-column: 1 / span 4;
+  grid-row: 5 / span 2; */
+}
+
+#item-eight {
+  grid-area: item-eight;
+  /* grid-area: auto; */
+  /* grid-column: 5 / span 4;
+  grid-row: 5 / span 2; */
+}
+
+#item-nine {
+  grid-area: item-nine;
+  /* grid-area: auto; */
+  /* grid-column: 1 / span 2;
+  grid-row: 7 / span 2; */
+  /* grid-column: 7 / span 2;
+  grid-row: 1 / span 2; */
+}
+
+/* --------------------------------------------------------- */
+/* Footer Styles */
+/* --------------------------------------------------------- */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 5fr 3fr; /* Set the columns to 5 parts and 3 parts */
+}
+
+.footer-item-1,
+.footer-item-2 {
+  padding: 20px 0 20px 5px;
+  /* ...other styles */
+}
+
+.footer-item-1 {
+  font-weight: bold;
+}
+
+.footer-item-2 {
+  font-style: italic;
+}
