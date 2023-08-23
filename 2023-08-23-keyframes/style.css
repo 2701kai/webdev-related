@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.6rem;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/Basketball-Feld.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent {
+  /* width: 100%;
+  height: 100%; */
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  background-image: url(./assets/Basketball.png);
+  height: 50%;
+  width: 50%;
+  /* transition: transform 1s ease -out; */
+  animation: bottom-to-top 1s ease-out infinite alternate;
+}
+
+.parent:hover .child {
+  transform: translateY(100%);
+  /* animation: bottom-to-top 1s ease-out 8 alternate; */
+}
+
+/* @keyframes bottom-to-top {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+@keyframes bottom-to-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100);
+  }
+}
+
+/* @keyframes myMove 10s infinite {
+    0% {top: 0px;}
+    25% {top: 200px;}
+    50% {top: 0px;}
+    75% {top: 200px;}
+    100% {top: 0px;}
+ */

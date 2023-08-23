@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.6rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.processing-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.processing-item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  position: absolute;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-fill-mode: forwards;
+}
+
+img,
+.processing-label {
+  z-index: 1;
+}
+
+.processing-item:nth-child(5) img,
+.processing-label:last-child {
+  z-index: 2;
+}
+
+.processing-label {
+  display: block;
+  text-align: center;
+}
+
+/* Animation for the download.png image */
+.processing-item:nth-child(1) {
+  animation: fadeIn 1s 0s, fadeOut 0.1s 1s;
+}
+
+/* Animation for the first file.png image */
+.processing-item:nth-child(2) {
+  animation: fadeIn 1s 1s, fadeOut 0.1s 2s;
+}
+
+/* Animation for the second file.png image */
+.processing-item:nth-child(3) {
+  animation: fadeIn 1s 2s, fadeOut 0.1s 3s;
+}
+
+/* Animation for the third file.png image */
+.processing-item:nth-child(4) {
+  animation: fadeIn 1s 3s, fadeOut 0.1s 4s;
+}
+
+/* Animation for the file-success.png image */
+.processing-item:nth-child(5) {
+  animation: fadeInStay 2.5s 4s forwards; /* The image will fade in and stay visible */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+}
+
+@keyframes fadeInStay {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
