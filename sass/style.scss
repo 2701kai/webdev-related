@@ -1,0 +1,91 @@
+@import "variables.scss";
+// snake-case
+// camelCase
+// 1. Variable
+$primary-color: #34d399;
+$font-size: 20px;
+$myWidth: 400px;
+$color: #6d28d9;
+$size: 16px;
+
+@mixin x {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  border: 3px dotted lawngreen;
+}
+body {
+  background-color: $primary-color;
+  font-size: $font-size;
+  color: $color;
+}
+
+#container {
+  margin: $size * 3;
+}
+
+// 2. Nested Rules
+.myClass {
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    list-style: none;
+  }
+
+  &:hover li {
+    background-color: black;
+  }
+}
+
+// 2.2 Nested Rules
+.nested {
+  background: yellow;
+
+  p {
+    color: black;
+  }
+}
+
+// 2.3 Nested Rules
+nav {
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+// 3. @import
+.heading {
+  background-color: orange;
+  border: $myBorder;
+}
+
+// 4. @extend
+.example-1 {
+  border: 3px solid black;
+  background-color: lightcoral;
+}
+
+.example-2 {
+  @extend .example-1;
+  padding: 30px;
+  color: white;
+}
+
+// @mixin
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+
+  @include x;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}

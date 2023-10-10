@@ -1,5 +1,11 @@
 # SASS
 
+https://sass-lang.com/documentation/
+
+---
+
+## SASS installieren
+
 ```bash
 npm i -g sass
 # sass global installieren
@@ -115,3 +121,42 @@ $tertiary-color: rgb(0, 0, 0);
 ![Alt text](image-9.png)
 
 - globale Variable
+
+---
+
+map-name:
+
+![Alt text](image-12.png)
+
+![Alt text](image-11.png)
+
+![Alt text](image-13.png)
+
+nested items:
+
+![Alt text](image-15.png)
+
+flex:
+
+![Alt text](image-16.png)
+
+![Alt text](image-17.png)
+
+mixin:
+
+![Alt text](image-19.png)
+
+![Alt text](image-18.png)
+
+mixin + variablen:
+
+![Alt text](image-20.png)
+
+![Alt text](image-21.png)
+
+> display-flex(space-around) ersetzt $space.
+> weiteres Beispiel:
+
+![Alt text](image-22.png)
+
+![Alt text](image-23.png)

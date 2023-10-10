@@ -1,0 +1,26 @@
+#main-nav {
+  background-color: #032f3e;
+}
+#main-nav .wrapper {
+  width: 100%;
+  padding: 1.2rem;
+}
+#main-nav .wrapper ul {
+  display: flex;
+  justify-content: space-around;
+}
+#main-nav .wrapper ul li {
+  list-style: none;
+}
+#main-nav .wrapper ul li a {
+  color: #f8f9fd;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+#main-nav .wrapper ul li a:hover {
+  background-color: #04455b;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -67,4 +67,24 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 ![Alt text](image-13.png)
 
-mit erster Zeile wird importance
+mit erstern Zeilen wird importance definiert:
+
+![Alt text](image-15.png)
+
+eigene utility klasen erstellen:
+
+![Alt text](image-16.png)
+
+![Alt text](image-17.png)
+
+![Alt text](image-18.png)
+
+---
+
+![Alt text](image-19.png)
+
+![Alt text](image-20.png)
+
+= Fehler im Terminal überprüfen
+
+![Alt text](image-14.png)

@@ -1,0 +1,128 @@
+// @import "variables";
+
+// #main-nav {
+//   @mixin display-flex($justify, $direction) {
+//     display: flex;
+//     justify-content: $justify;
+//     flex-direction: $direction;
+//   }
+// }
+
+
+// .wrapper {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     align-items: center;
+//     @include display-flex(space-around, row);
+//     padding: 1rem;
+//     background-color: $nav-bg-color;
+//     color: white;
+//     font-family: 'Roboto', sans-serif;
+//     font-size: 1.2rem;
+//     font-weight: 300;
+//     // text-transform: uppercase;
+//     letter-spacing: 0.1rem;
+//     line-height: 1.5;
+//     text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.3);
+// }
+
+
+// @import "variables";
+
+// #main-nav {
+//     position: fixed;  // Fixes the nav to the viewport
+//     top: 0;
+//     left: 0;
+//     width: 100vw;  // 100% of the viewport width
+//     height: 20px;  // Fixed height of 20px
+//     background-color: $nav-bg-color;
+//     color: $text-color;
+//     font-family: $font-family;
+//   }
+  
+//   .wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 1rem;
+//   }
+  
+
+// .lead-banner, .lessons-banner {
+//   position: relative;
+  
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+  
+//   .banner-content {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     color: $text-color;
+    
+//     .title {
+//       font-size: 2em;
+//     }
+    
+//     .sub-title {
+//       font-size: 1.5em;
+//     }
+//   }
+// }
+
+// #services, #projects {
+//   .wrapper {
+//     display: flex;
+//     flex-wrap: wrap;
+    
+//     h1 {
+//       width: 100%;
+//       text-align: center;
+//     }
+    
+//     ul {
+//       width: 100%;
+//       display: flex;
+//       flex-wrap: wrap;
+//       justify-content: space-around;
+//     }
+//   }
+// }
+
+@import "variables";
+#main-nav {
+    background-color: $blue;
+    .wrapper {
+        width: 100%;
+        padding: 1.2rem;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                    li {
+                        list-style: none;
+                            a {color: $offwhite;
+                                text-decoration: none;
+                                padding: 0.8rem;
+                                text-align: center;
+                                border-radius: 0.5rem;
+                                  &:hover {
+                                    background-color: lighten($color: $blue, $amount: 6);
+                                  }
+                            }
+                    }
+            }
+    }
+}
+
+
+
+
+
+
+
+
+

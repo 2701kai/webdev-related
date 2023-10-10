@@ -35,3 +35,30 @@ const obj2 = {
 const entries = Object.entries(obj2);
 
 console.log(entries);
+
+for (const [fruit, count] of entries) {
+  console.log(`There are ${count} ${fruit}s`);
+}
+
+const programmingLanguages = {
+  javascript: "JS",
+  python: "PY",
+  react: "REACT",
+};
+
+console.log(Object.keys(programmingLanguages));
+console.log(Object.keys(programmingLanguages.javascript));
+console.log(programmingLanguages["javascript"]);
+for (const key in programmingLanguages) {
+  console.log("${key} => ${programmingLanguages[key]}");
+}
+
+const sambasDeEnredoNoventanove = {
+  gres: "Mocidade Independente de Padre Miguel",
+  author: "J. K. Rowling",
+  country: "Brazil",
+  language: "portugues",
+  youTube: "https://www.youtube.com/watch?v=jR5GgkDOngo",
+  beteria: 800,
+  year: 1999,
+};

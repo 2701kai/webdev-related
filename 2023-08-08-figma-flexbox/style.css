@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.container {
+  border: 2px solid;
+  height: 400px;
+  background-color: lightgray;
+  /* FLEXBOX: Parent muss angesprochen werden */
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: column wrap; */
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+.container > * {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.First {
+  background-color: cadetblue;
+}
+.Second {
+  background-color: rgb(195, 192, 109);
+}
+.Third {
+  background-color: rgb(18, 79, 49);
+}
+.Fourth {
+  background-color: rgb(142, 119, 201);
+}
+
+/* =============================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.container{
+    border: 2px solid;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+     /* flex-direction: column; */
+    flex-wrap: wrap; 
+    /* flex-flow ist shorthand */
+    /* flex-flow: flex-direction flex-wrap */
+    /* flex-flow: column wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: space-between;
+    align-content: space-evenly;
+    /* row-gap: 5px;
+    column-gap: 5px; */
+    gap: 5px;
+    /* gap: 5px 15px; */
+    /* gap: 5px 15px 10px 20px; */
+}
+.container > *{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First{
+    background-color: cadetblue;
+    /* height: 150px; */
+}
+.Second{
+    background-color: rgb(195, 192, 109);
+}
+.Third{
+    background-color: rgb(18, 79, 49);
+}
+.Fourth{
+    background-color: rgb(142, 119, 201);
+}
+
+/* ===============================================0 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.container{
+    border: 2px solid;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+     /* flex-direction: column; */
+    flex-wrap: wrap; 
+    /* flex-flow ist shorthand */
+    /* flex-flow: flex-direction flex-wrap */
+    /* flex-flow: column wrap; */
+    justify-content: space-between;
+    /* align-items: center; */
+    align-content: space-between;
+    /* row-gap: 5px;
+    column-gap: 5px; */
+    /* gap: 5px 10px; */
+}
+.container > *{
+    width: 35%;
+    height: 100px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+.First{
+    background-color: cadetblue;
+    /* height: 150px; */
+}
+.Second{
+    background-color: rgb(195, 192, 109);
+}
+.Third{
+    background-color: rgb(18, 79, 49);
+}
+.Fourth{
+    background-color: rgb(142, 119, 201);
+}
