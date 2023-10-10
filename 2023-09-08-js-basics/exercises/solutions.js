@@ -60,3 +60,9 @@ function range(start, end) {
   }
   return result;
 }
+
+function isAdhdClass(online) {
+  return online
+    ? "Rise + Shine, another bright day with your beloved classmates!"
+    : "Stay in bed + feel sorry for yourself";
+}
