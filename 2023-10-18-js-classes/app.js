@@ -49,3 +49,16 @@ class SambaDoEnredoLetras extends SambaDoEnredo {
 }
 
 console.log(enredo2);
+
+
+
+
+
+// -----------------------------
+let okFuerGiacoUndRami = true; /
+
+if (okFuerGiacoUndRami) {
+    console.log("macht doch..");
+} else {
+    console.log("STFU, geezer!");
+}
