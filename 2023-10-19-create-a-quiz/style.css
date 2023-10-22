@@ -94,36 +94,6 @@ p {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* mobile */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  .btn {
-    font-size: 1rem;
-    padding-inline: 20px;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
-
-  div {
-    padding: 10px;
-    /* margin: 0 auto; */
-    /* margin: 0; */
-  }
-}
-
 /* ------------------------------------------------------------- */
 /* if user chose dark theme for browser */
 /* ------------------------------------------------------------- */
@@ -167,3 +137,33 @@ p {
   }
 }
 /* ------------------------------------------------------------- */
+/* mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding-inline: 20px;
+    line-height: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  div {
+    padding: 10px;
+    margin: 0 auto;
+    /* margin: 0; */
+  }
+}
