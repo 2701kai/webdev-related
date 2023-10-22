@@ -121,7 +121,7 @@ function startGame() {
         "mit 4.26 Promille in der Notaufnahme",
         "mit mir allein, da habe ich die besten Gespräche",
         "nackt im Wald mit den anderen 47 Gästen (und dem Schaf) der Fetisch-Party",
-        "bei einem guten Glas zimmertemperierten Mineralwassers<br>aus Freilandhaltung mit Bio-Zitronenscheibchen",
+        "bei einem guten Glas zimmertemperierten Mineralwassers aus Freilandhaltung mit Bio-Zitronenscheibchen",
       ],
       [0, 1, 2, 3],
       "Sehr schön, gute Entscheidung von distinguiertem Geschmack!"
