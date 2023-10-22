@@ -40,6 +40,10 @@ div {
   padding: 25px;
 }
 
+div {
+  margin: 20px 50px 150px;
+}
+
 h1,
 h2,
 h3 {
@@ -111,6 +115,12 @@ p {
 
   p {
     font-size: 1.2rem;
+  }
+
+  div {
+    padding: 10px;
+    /* margin: 0 auto; */
+    /* margin: 0; */
   }
 }
 
