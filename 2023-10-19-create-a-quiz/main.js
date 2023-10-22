@@ -80,7 +80,7 @@ function startGame() {
       "Was sagt die Schnecke, wenn sie auf der Schildkröte reitet?",
       ["Huuuuiiiiiii!"],
       0,
-      "Richtig. Wir lieben Deinen subtilen englischen Humor.<br>Also sobald Du Frankie Boyle frei zitieren kannst.<br>Bisher ein bisschen niedlich, Dein Vorschul – Humorverständnis."
+      "Richtig.<br>Wir lieben Deinen subtilen englischen Humor.<br>Also sobald Du Frankie Boyle frei zitieren kannst.<br>Bisher ein bisschen niedlich, Dein Vorschul – Humorverständnis."
     ),
 
     new Question(
