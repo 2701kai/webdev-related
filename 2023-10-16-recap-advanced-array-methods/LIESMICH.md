@@ -15,10 +15,10 @@ Hier ist, wie der "Accumulator" zur `reduce()`-Funktion in Beziehung steht:
 Hier ist ein einfaches Beispiel, das die Verwendung von `reduce()` mit einem "Accumulator" zeigt, um die Summe der Elemente in einem Array zu berechnen:
 
 ```javascript
-var numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 
 // Verwendung von reduce() zur Berechnung der Summe
-var sum = numbers.reduce(function (accumulator, currentNumber) {
+let sum = numbers.reduce(function (accumulator, currentNumber) {
   return accumulator + currentNumber;
 }, 0); // Hier ist 0 der Anfangswert des Accumulators
 

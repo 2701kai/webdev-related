@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +6,16 @@
     <title>myQuiz</title>
   </head>
   <body>
-    <div id="quiz-container">
-      <h2 id="question-text"></h2>
-      <form id="options-form">
-        <!-- Options will be populated here -->
-      </form>
-      <button id="submit-answer">Submit</button>
-    </div>
-    <script src="script.js"></script>
+    <h2>Simple Quiz Game</h2>
+
+    <div id="question-text"></div>
+    <form id="options-form"></form>
+    <button onclick="submitAnswer()">Submit</button>
+    <button onclick="nextQuestion()" id="next-btn" style="display: none">
+      Next
+    </button>
+    <div id="feedback"></div>
+    <!-- <script src="./quiz.dom.js"></script> -->
+    <script src="./main.js"></script>
   </body>
 </html>
