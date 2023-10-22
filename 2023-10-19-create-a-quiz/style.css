@@ -35,7 +35,6 @@ p,
 header,
 section,
 div {
-  /* border: 2px solid #ff4a11; */
   line-height: 1.5em;
   text-align: center;
   padding: 25px;
@@ -137,7 +136,7 @@ p {
   header,
   section,
   div {
-    border: 2px solid #ff4a11;
+    /* border: 2px solid #ff4a11; */
   }
 
   h1,
