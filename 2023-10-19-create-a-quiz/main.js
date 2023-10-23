@@ -172,22 +172,29 @@ function startGame() {
       document.body.append(resultDiv);
 
       // new Game:
-      const newGameBtn = document.createElement("button");
+      // const newGameBtn = document.createElement("button");
+      // newGameBtn.innerText = "New Game";
+      // newGameBtn.classList.add("btn");
+      // //   newGameBtn.addEventListener("click", startGame);
+      // newGameBtn.addEventListener("click", function () {
+      //   // back to start:
+      //   const existingDivs = document.querySelectorAll("div");
+      //   existingDivs.forEach((div) => div.remove());
+      //   body.append(title);
+      //   body.append(div);
+      //   div.append(startbtn);
+      //   currentQuestionIndex = 0; // reset
+      //   score = 0; // reset
+      // });
+      // document.body.append(newGameBtn);
+      // // new Game End
+
+      // alternative:
+      const newGameBtn = document.createElement("a");
+      newGameBtn.href = "index.html";
       newGameBtn.innerText = "New Game";
       newGameBtn.classList.add("btn");
-      //   newGameBtn.addEventListener("click", startGame);
-      newGameBtn.addEventListener("click", function () {
-        // back to start:
-        const existingDivs = document.querySelectorAll("div");
-        existingDivs.forEach((div) => div.remove());
-        body.append(title);
-        body.append(div);
-        div.append(startbtn);
-        currentQuestionIndex = 0; // reset
-        score = 0; // reset
-      });
       document.body.append(newGameBtn);
-      // new Game End
     }
   }
 
