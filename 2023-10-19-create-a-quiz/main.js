@@ -26,22 +26,17 @@ div.append(startbtn);
 function startGame() {
   const startDiv = document.getElementById("start");
   if (startDiv) startDiv.remove();
-  startbtn.classList.add("btn");
 
   // New Game Button letzte Seite entfernen:
   if (startbtn && startbtn.parentNode) {
     startbtn.parentNode.removeChild(startbtn);
   }
-
+  // startbtn.addEventListener("click", startGame);
   let currentQuestionIndex = 0;
   let score = 0;
 
-  // --------------------------------------------------
-  // GAME
-  // --------------------------------------------------
-
   class Question {
-    startbtn.classList.add("btn");rrectFeedback, wrongFeedback) {
+    constructor(text, options, correctAnswers, correctFeedback, wrongFeedback) {
       this.text = text;
       this.options = options;
       this.correctAnswers = Array.isArray(correctAnswers)
@@ -66,8 +61,8 @@ function startGame() {
   // newGameBtn.innerText = "New Game";
   // newGameBtn.classList.add("btn");
   // //   newGameBtn.addEventListener("click", startGame);
-  // newGameBtn.addEventListener("click", function 
-startbtn.classList.add("btn");ll("div");
+  // newGameBtn.addEventListener("click", function
+
   //   existingDivs.forEach((div) => div.remove());
   //   body.append(title);
   //   body.append(div);
@@ -82,7 +77,7 @@ startbtn.classList.add("btn");ll("div");
     new Question(
       "Wie hießen die Berliner Dissen, in denen Berufsjugendliche so ca. 2005 gerne in der Nacht von Freitag auf Montag tanzten?",
       [
-        "Vereinsheim zur Steigerung der Lebensfreude durch Tanz, Musik und andere Lustbarkeiten von 1896 e.V. – E-Werk – Planet – Praxis Dr.McCoy – Walfisch – WMF – Exit – Vereinsheim – Turbine – Lipstick ",
+        "Vereinsheim zur Steigerung der Lebensfreude durch Tanz und Musik und andere Lustbarkeiten von 1896 e.V. – E-Werk – Planet – Praxis Dr.McCoy – Walfisch – WMF – Exit – Vereinsheim – Turbine – Lipstick ",
         "WMS – Berghain – Tresor – AMS – Schellfisch – Lipstick – Franken – Golgatha - &tl,dr;",
         "90° - Kellerdisco Präsidentenstraße – HardWax – AMG – wastedYouth – Yaam – Sapucaiu",
       ],
@@ -135,8 +130,8 @@ startbtn.classList.add("btn");ll("div");
       [
         "mit 4.26 Promille in der Notaufnahme",
         "mit mir allein, da habe ich die besten Gespräche",
-        "nackt im Wald mit den anderen 47 Gästen (un
-          startbtn.classList.add("btn");eralwassers aus Freilandhaltung mit Bio-Zitronenscheibchen",
+        "nackt im Wald mit den anderen 47 Gästen (und dem Schaf) der Fetisch-Party",
+        "bei einem guten Glas zimmertemperierten Mineralwassers aus Freilandhaltung mit Bio-Zitronenscheibchen",
       ],
       [0, 1, 2, 3],
       "Sehr schön, gute Entscheidung von distinguiertem Geschmack!"
@@ -203,7 +198,7 @@ startbtn.classList.add("btn");ll("div");
       // });
       // document.body.append(newGameBtn);
       // // new Game End
-startbtn.classList.add("btn");
+      // startbtn.classList.add("btn");
 
       // alternative:
       const newGameBtn = document.createElement("a");
@@ -248,5 +243,12 @@ startbtn.classList.add("btn");
 }
 
 // new Game:
-startbtn.addEventListener("click", startGame);
+// startbtn.addEventListener("click", startGame);
+
+// const newGameBtn = document.createElement("a"); // Create an anchor element
+// newGameBtn.href = "index.html"; // Set the href attribute to point to index.html
+// newGameBtn.innerText = "New Game";
+// newGameBtn.classList.add("btn");
+// document.body.append(newGameBtn);
 // new Game End
+startbtn.addEventListener("click", startGame);
