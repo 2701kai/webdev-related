@@ -1,4 +1,5 @@
 const body = document.body;
+console.log(document);
 
 const title = document.createElement("h3");
 title.innerText = "DOM Manipulation";
@@ -10,6 +11,7 @@ body.append(title);
 
 const div = document.createElement("div");
 div.id = "start";
+
 div.innerHTML = "<h2>Simple Quiz Game</h2>";
 body.append(div);
 
