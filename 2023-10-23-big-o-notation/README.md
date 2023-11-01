@@ -35,3 +35,9 @@ function binarySearch(arr, target) {
 Unterschied linear sesarch / binary search:
 
 ![Alt text](image-3.png)
+
+find duplicates:
+
+![Alt text](image-4.png)
+
+..also nested loops vermeiden aus performance Gründen.
