@@ -238,3 +238,18 @@ iframe {
   object-fit: cover; /* to cover the entire area, maintaining aspect ratio */
   z-index: -1; /* to ensure it stays in the background */
 }
+
+/* -------------------------------------------------------------- */
+/* MARIO MOBILE*/
+/* -------------------------------------------------------------- */
+.button-container {
+  display: none;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    display: flex;
+  }
+}
