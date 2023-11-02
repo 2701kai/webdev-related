@@ -181,9 +181,9 @@ small {
   transition: transform 0.1s linear;
 }
 
-/* .btn {
+.btn {
   position: relative;
-} */
+}
 
 #instructions {
   margin: 0 auto;
@@ -253,13 +253,12 @@ iframe {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     position: fixed;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     gap: 10px;
-    /* margin: 0 auto; */
   }
 
   button {

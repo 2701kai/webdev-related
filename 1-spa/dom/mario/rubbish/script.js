@@ -50,18 +50,14 @@ function moveMario() {
 
   document.addEventListener("keydown", function (event) {
     if (event.code === "Space") {
-      mario.classList.add("fullHeight");
       document.getElementById("instructions").classList.add("hidden");
       imgMario.src = "./assets/mario-dance-moves.gif";
+      mario.classList.add("fullHeight");
       mario.classList.add("dancing");
       plexico.play();
-      backgroundVideo.style.display = "block";
-      backgroundVideo.play();
     } else if (event.code === "Escape") {
       mario.classList.remove("fullHeight");
       mario.classList.remove("dancing");
-      backgroundVideo.pause();
-      backgroundVideo.style.display = "none";
       plexico.pause();
       document.getElementById("instructions").classList.remove("hidden");
       imgMario.src = "./assets/mario-stand.gif";
@@ -87,44 +83,6 @@ function moveMario() {
     }
   });
 }
-
-// --------------------------------------------------------------
-// MARIO, MOBILE!
-// --------------------------------------------------------------
-document.addEventListener("DOMContentLoaded", (event) => {
-  let spaceButton = document.getElementById("spaceButton");
-  let escapeButton = document.getElementById("escapeButton");
-  let leftArrowButton = document.getElementById("leftArrowButton");
-  let rightArrowButton = document.getElementById("rightArrowButton");
-
-  spaceButton.addEventListener("click", function () {
-    mario.classList.add("fullHeight", "dancing");
-    document.getElementById("backgroundVideo").style.display = "block";
-    document.getElementById("plexico").play();
-    document.getElementById("instructions").classList.add("hidden");
-    imgMario.src = "./assets/mario-dance-moves.gif";
-  });
-
-  escapeButton.addEventListener("click", function () {
-    // document.getElementById("backgroundVideo").pause();
-    // document.getElementById("backgroundVideo").style.display = "none";
-    // document.getElementById("plexico").pause();
-    // document.getElementById("instructions").classList.remove("hidden");
-    // imgMario.src = "./assets/mario-stand.gif";
-    location.reload();
-  });
-
-  leftArrowButton.addEventListener("click", function () {
-    mario.style.transform = "scaleX(-1)";
-    mario.style.transition = "transform 0.5s";
-  });
-
-  rightArrowButton.addEventListener("click", function () {
-    mario.style.transform = "scaleX(1)";
-    mario.style.transition = "transform 0.5s";
-  });
-});
-//
 
 // Call the moveMario function to start listening for keyboard events
 moveMario();
