@@ -270,6 +270,6 @@ b {
 
   #mario.dancing img {
     height: 65vh;
-    /* margin-top: 0 auto; */
+    margin-top: 1rem;
   }
 }
