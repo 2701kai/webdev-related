@@ -259,7 +259,6 @@ b {
     left: 50%;
     transform: translateX(-50%);
     gap: 10px;
-    /* margin: 0 auto; */
   }
 
   button {
