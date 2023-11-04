@@ -1,11 +1,19 @@
 let mario = document.getElementById("mario");
 let imgMario = mario.querySelector("img");
 
+// Add touch support for mobile devices
+let spaceButton = document.getElementById("spaceButton");
+let escapeButton = document.getElementById("escapeButton");
+
+// Adding the functionality for Mario to dance
+let plexico = document.getElementById("plexico");
+let backgroundVideo = document.getElementById("backgroundVideo");
+
 // Setting the initial source of image to mario-walk.gif
 imgMario.src = "./assets/mario-walk.gif";
 
 // Creating a variable to store the interval ID
-let walkInterval;
+// let walkInterval;
 
 // Function to move Mario on keydown
 // function moveMario() {
@@ -22,38 +30,33 @@ let walkInterval;
 //   });
 // }
 
-// Adding the functionality for Mario to dance
-let plexico = document.getElementById("plexico");
-let backgroundVideo = document.getElementById("backgroundVideo");
-
 document.addEventListener("keydown", function (event) {
   if (event.code === "Space") {
-    imgMario.src = "./assets/mario-dance-moves.gif";
-    mario.classList.add("fullHeight");
-    document.getElementById("instructions").classList.add("hidden");
     mario.classList.add("dancing");
-    plexico.play();
     backgroundVideo.style.display = "block";
     backgroundVideo.play();
+    plexico.play();
+    document.getElementById("instructions").classList.add("hidden");
+    imgMario.src = "./assets/mario-dance-moves.gif";
   } else if (event.code === "Escape") {
-    mario.classList.remove("fullHeight");
+    // mario.classList.remove("fullHeight");
     mario.classList.remove("dancing");
     backgroundVideo.pause();
     backgroundVideo.style.display = "none";
     plexico.pause();
     document.getElementById("instructions").classList.remove("hidden");
-    imgMario.src = "./assets/mario-stand.gif"; // Assuming mario-stand.gif is the standing still image.
+    imgMario.src = "./assets/mario-walk.gif"; // Assuming mario-stand.gif is the standing still image.
   }
 });
 
 // Add touch support for mobile devices
 document.addEventListener("DOMContentLoaded", (event) => {
-  let spaceButton = document.getElementById("spaceButton");
-  let escapeButton = document.getElementById("escapeButton");
-
+  // let spaceButton = document.getElementById("spaceButton");
+  // let escapeButton = document.getElementById("escapeButton");
   spaceButton.addEventListener("click", function () {
-    mario.classList.add("fullHeight", "dancing");
+    mario.classList.add("dancing");
     document.getElementById("backgroundVideo").style.display = "block";
+    backgroundVideo.play();
     document.getElementById("plexico").play();
     document.getElementById("instructions").classList.add("hidden");
     imgMario.src = "./assets/mario-dance-moves.gif";
@@ -70,4 +73,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 // Call the moveMario function to start listening for keyboard events
-moveMario();
+// moveMario();
