@@ -203,15 +203,15 @@ iframe {
   align-items: center;
 }
 
+/* .bg-video {
+  display: block;
+} */
+
 #mario.dancing img {
-  /* height: 100%; */
-  height: 95vh;
+  height: 100%;
+  height: 90vh;
   /* margin: 0px auto; */
 }
-
-/* div {
-  margin: 0 auto;
-} */
 
 /* .dancing {
   position: relative;
@@ -255,7 +255,7 @@ b {
     flex-direction: column;
     /* justify-content: space-evenly; */
     position: fixed;
-    bottom: 10px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     gap: 10px;
@@ -267,5 +267,10 @@ b {
     padding: 10px 20px;
     /* padding-inline: 20px; */
     line-height: 1.4rem;
+  }
+
+  #mario.dancing img {
+    height: 65vh;
+    /* margin-top: 0 auto; */
   }
 }

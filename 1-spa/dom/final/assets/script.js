@@ -34,6 +34,7 @@ document.addEventListener("keydown", function (event) {
   if (event.code === "Space") {
     mario.classList.add("dancing");
     backgroundVideo.style.display = "block";
+    // backgroundVideo.classList.add("bg-video");
     backgroundVideo.play();
     plexico.play();
     document.getElementById("instructions").classList.add("hidden");
