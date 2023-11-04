@@ -1,0 +1,276 @@
+html {
+  scroll-behavior: smooth;
+  /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
+  /* color-scheme: dark light; */
+  /* color-scheme: dark light; */
+  width: 100vw;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  /* color: #333;
+          background-color: #fff; */ /* background-color: #0fb0fa3b; */
+  background-color: #0fb0fa3b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+section,
+div {
+  line-height: 1.5em;
+  text-align: center;
+  padding: 25px;
+}
+
+/* div {
+  margin: 20px 50px 150px;
+} */
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  letter-spacing: 0.18em; /* background-color: #0fb0fa3b; */
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+small {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* style for buttons */
+.btn {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.14em;
+  display: inline-block;
+  font-size: 16px;
+  padding-inline: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  background-color: #ff4a11;
+  /* Zeilenumbruch im Button anzeigen:*/
+  white-space: pre-line;
+}
+
+.btn:hover {
+  background-color: #e5430f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    class= "btn" 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------------------------------------------------------------- */
+/* if user chose dark theme for browser */
+/* ------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: #fff;
+    /* background-color: #0fb0fa91; */
+    background-color: #333;
+  }
+  /* h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  header,
+  section,
+  div {
+    border: 2px solid #ff4a11;
+  } */
+
+  h1,
+  h2,
+  h3 {
+    text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+  }
+
+  /* style for buttons */
+  .btn {
+    font-weight: bold;
+  }
+
+  .btn:hover {
+    background-color: #e5430f;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),
+      0 17px 50px 0 rgba(255, 255, 255, 0.19);
+  }
+}
+/* ------------------------------------------------------------- */
+/* mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding-inline: 20px;
+    line-height: 1.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  div {
+    padding: 10px;
+    margin: 0 auto;
+    /* margin: 0; */
+  }
+}
+
+/* -------------------------------------------------------------- */
+/* MARIO */
+/* -------------------------------------------------------------- */
+#mario {
+  position: relative;
+  transition: transform 0.1s linear;
+}
+
+/* .btn {
+  position: relative;
+} */
+
+#instructions {
+  margin: 0 auto;
+}
+
+#instructions.hidden {
+  display: none;
+}
+
+iframe {
+  display: none;
+}
+
+#mario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mario.dancing img {
+  /* height: 100%; */
+  height: 95vh;
+  /* margin: 0px auto; */
+}
+
+/* #mario.fullHeight {
+  height: 100vh;
+  height: 100%;
+} */
+
+/* div {
+  margin: 0 auto;
+} */
+
+/* .dancing {
+  position: relative;
+} */
+
+.video-container {
+  position: relative;
+  /* width: 100%;
+  height: 100%;
+  overflow: hidden; */
+}
+
+#backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* to cover the entire area, maintaining aspect ratio */
+  z-index: -1; /* to ensure it stays in the background */
+}
+
+b {
+  letter-spacing: 0.14rem;
+  color: #ff4a11;
+}
+
+/* -------------------------------------------------------------- */
+/* MARIO MOBILE*/
+/* -------------------------------------------------------------- */
+.button-container {
+  display: none;
+  /* justify-content: space-evenly;
+  margin-top: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    /* margin: 0 auto; */
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    /* padding-inline: 20px; */
+    line-height: 1.4rem;
+  }
+}

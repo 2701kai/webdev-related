@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.ico" sizes="192x192" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Dance, Mario!</title>
+  </head>
+  <body>
+    <div id="mario">
+      <img src="./assets/mario-walk.gif" alt="Mario" />
+      <!-- <img src="./assets/mario-stand.gif" alt="Mario.Stop" /> -->
+    </div>
+    <div id="instructions">
+      <!-- <aside> -->
+      <h2>Dance, Mario!</h2>
+      <p>
+        <small
+          >Press <b>SPACE</b> once to immerse him in music! (<b>ESCAPE</b> to
+          leave)</small
+        >
+      </p>
+    </div>
+
+    <audio id="plexico" loop>
+      <!-- <source src="./assets/pandora-short.mp3" type="audio/mp3" /> -->
+      <source src="./assets/plexico-1-shorter.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- <div class="video-container"> -->
+    <video id="backgroundVideo" loop muted style="display: none">
+      <source src="./assets/matrix.mp4" />
+    </video>
+    <!-- </div> -->
+
+    <!-- MARIO MOBILE -->
+    <div class="button-container">
+      <button id="spaceButton" class="btn">Dance</button>
+      <button id="escapeButton" class="btn">Stop</button>
+      <!-- <button id="leftArrowButton" class="btn">Left</button>
+      <button id="rightArrowButton" class="btn">Right</button> -->
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
