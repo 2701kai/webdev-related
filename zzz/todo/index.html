@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yet Another To-Do App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="todo">
+      <div class="todo__head">
+        <h1>To Do:</h1>
+        <form class="todo__add">
+          <input
+            class="todo__input"
+            type="text"
+            placeholder="Write a to-do..."
+            name="todo"
+            required
+          />
+          <button type="submit" value="add">
+            <img src="./img/plus.svg" alt="plus" />
+            Add
+          </button>
+        </form>
+      </div>
+      <ul class="todo__list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

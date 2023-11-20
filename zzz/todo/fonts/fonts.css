@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url("BrunoAceSC-Regular.woff2") format("woff2"),
+    url("BrunoAceSC-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenPro-SemiBold.woff2") format("woff2"),
+    url("MavenPro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("Ubuntu-Bold.woff2") format("woff2"),
+    url("Ubuntu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenPro-Black.woff2") format("woff2"),
+    url("MavenPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenPro-Regular.woff2") format("woff2"),
+    url("MavenPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("Ubuntu-Regular.woff2") format("woff2"),
+    url("Ubuntu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-Regular.woff2") format("woff2"),
+    url("NotoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("Outfit-Thin.woff2") format("woff2"),
+    url("Outfit-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("Oswald-Regular.woff2") format("woff2"),
+    url("Oswald-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

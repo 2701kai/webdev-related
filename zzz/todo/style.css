@@ -1,0 +1,300 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #306ffd;
+  background-image: linear-gradient(60deg, #306efe, #003ab7);
+  padding: 40px 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.todo {
+  background-color: white;
+  border-radius: 6px;
+  width: 95%;
+  max-height: 90vh;
+  margin: 0 auto;
+  overflow-y: scroll;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 800px) {
+  .todo {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .todo {
+    width: 50%;
+  }
+}
+
+.todo__head {
+  background-color: #ececec;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 30px 30px;
+}
+
+.todo__head h1 {
+  margin: 0 0 30px;
+  font-size: 26px;
+}
+
+.todo__add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.todo__add [type="text"] {
+  flex: 0 0 78%;
+  padding: 10px;
+  border: 1px solid #d2d2d2;
+  margin-bottom: 0px;
+  font-size: 16px;
+  height: 36px;
+}
+
+.todo__add button {
+  flex: 0 0 20%;
+  background-color: transparent;
+  border: 2px solid #1752d7;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 36px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1752d7;
+}
+
+.todo__add button img {
+  position: relative;
+  top: 1px;
+}
+
+.todo__list {
+  padding: 0 30px 30px;
+}
+
+.todo__item {
+  list-style: none;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 15px 0;
+}
+
+.todo__item label {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.todo__item input {
+  display: none;
+}
+
+.todo__buttons {
+  min-width: 105px;
+}
+
+.todo__text {
+  line-height: 24px;
+  transition: all 0.3s ease-in;
+}
+
+.todo__delete {
+  color: #db6863;
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 24px;
+  transition: color 0.2s ease;
+}
+
+.todo__delete:hover {
+  color: #e2251d;
+}
+
+.todo__done {
+  cursor: pointer;
+  margin-right: 15px;
+  opacity: 0.2;
+  transition: opacity 0.2s ease;
+}
+
+.todo__list .todo__item input[type="checkbox"]:checked + label .todo__text {
+  text-decoration: line-through;
+  color: #c0c0c0;
+}
+
+.todo__list .todo__item input[type="checkbox"]:checked + label .todo__done {
+  opacity: 1;
+}
+
+/* --------------------------------------------------------- */
+/* ADDITIONAL FONTS ADDED */
+/* --------------------------------------------------------- */
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url("./fonts/BrunoAceSC-Regular.woff2") format("woff2"),
+    url("./fonts/BrunoAceSC-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("./fonts/MavenPro-SemiBold.woff2") format("woff2"),
+    url("./fonts/MavenPro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/Ubuntu-Bold.woff2") format("woff2"),
+    url("./fonts/Ubuntu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("./fonts/MavenPro-Black.woff2") format("woff2"),
+    url("./fonts/MavenPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("./fonts/MavenPro-Regular.woff2") format("woff2"),
+    url("./fonts/MavenPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/Ubuntu-Regular.woff2") format("woff2"),
+    url("./fonts/Ubuntu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./fonts/NotoSans-Regular.woff2") format("woff2"),
+    url("./fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/Outfit-Thin.woff2") format("woff2"),
+    url("./fonts/Outfit-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./fonts/Oswald-Regular.woff2") format("woff2"),
+    url("./fonts/Oswald-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------- */
+/* ADDITIONAL STYLES ADDED */
+/* --------------------------------------------------------- */
+.todo__head h1 {
+  color: #3b3b3bc4;
+  color: hsla(0, 5%, 15%, 0.769);
+  color: hsla(0, 5%, 15%, 0.85);
+  color: hsla(0, 0%, 15%, 0.85);
+  /* color: hsla(0, 0%, 5%, 0.85); */
+  /* text-shadow: rgba(0, 0, 0, 0.16) 1px 3px 6px; */
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 3px 6px;
+  /* text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6); */
+  text-shadow: 0em 0em 0.4em rgba(0, 0, 0, 0.6);
+  /* font-family: "Maven Pro";
+    font-weight: 600;
+    font-style: normal; */
+  font-family: "Bruno Ace SC";
+  /* font-weight: normal; */
+  /* font-style: normal; */
+  /* font-family: "Outfit"; */
+}
+
+.todo__add input[type="text"] {
+  font-family: "Outfit";
+  font-family: "Maven Pro";
+  font-weight: 100;
+}
+
+/* .todo__add:focus-visible [type="text"] {
+  border: 1px solid rgb(229, 151, 0);
+} */
+
+/* .todo__input:focus-visible {
+  border: 1px solid rgb(229, 151, 0);
+} */
+
+.todo__text {
+  line-height: 24px;
+  transition: all 0.3s ease-in;
+  font-family: "Ubuntu";
+  /* font-weight: 600; */
+  /* font-style: normal; */
+}
+
+.todo__add button {
+  font-family: "Maven Pro";
+  font-family: "Outfit";
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+.todo__delete {
+  font-family: "Outfit";
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* rgb(229, 151, 0) */
+
+@media (max-width: 400px) {
+  .todo__add button {
+    /* font-size: 12px; */
+    /* width: 50%; */
+    padding: 10px 0;
+  }
+
+  .todo__add {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
