@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #262626;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;isplay: flex;
+  flex-direction: column;
+  /* background-image: url(./assets/display2.png); */
+  object-fit: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+  /* background-size: cover; */
+}
+
+@font-face {
+  font-family: "Digit";
+  src: url(./assets/fonts/Digit.woff2) format("woff2"),
+    url(./assets/fonts/Digit.woff) format("woff");
+}
+
+/* #clock-container {
+  color: #ff9500;
+  display: flex;isplay: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+#clock {
+  color: #ff9500;
+}
+
+/* ------------------------------------- */
+/* General Styles */
+/* ------------------------------------- */
+h1,
+.clock {
+  font-family: "Digit", sans-serif;
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  /* display: flex;
+  flex-direction: column; */
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.14em;
+  display: inline-block;
+  font-size: 16px;
+  padding-inline: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  background-color: #ff4a11;
+  /* Zeilenumbruch im Button anzeigen:*/
+  white-space: pre-line;
+}
+
+.btn:hover {
+  background-color: #e5430f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    class= "btn" 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------------------------------------- */
+/* Clock Styles */
+/* ------------------------------------- */
+input {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+#clock-container {
+  text-align: center;
+}
+
+.clock {
+  font-size: 48px;
+  letter-spacing: 3px;
+  /* background: #000; */
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+
+#alarm-set {
+  margin-top: 20px;
+}
+
+.success-alert {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

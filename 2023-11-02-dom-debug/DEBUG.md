@@ -66,7 +66,9 @@ Using prepend you can add a node at the beginning of the parent node, while usin
 
 With append and prepend you can add a string, a node or a list of nodes, while with appendChild you can only add a node and only one por method.
 
-## Propagation and delegationhttps://youtube.com/watch?v=F1anRyL37lE&amp;si=f0gG5z9sUAir4-Ki
+## Propagation and delegation
+
+https://youtube.com/watch?v=F1anRyL37lE&amp;si=f0gG5z9sUAir4-Ki
 
 **Event propagation** is a mechanism that defines how events propagate or travel through the DOM tree to reach their target and what happens to them afterward. There are two ways of event propagation in the DOM tree: bubbling and capturing.
 
